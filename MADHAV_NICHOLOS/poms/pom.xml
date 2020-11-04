@@ -14,6 +14,7 @@
     <module>code/beans</module>
     <module>jobs/process/nexus_0.1</module>
     <module>jobs/process/nexus_1.0</module>
+    <module>jobs/process/nexus_2.0</module>
   </modules>
   <properties>
     <talend.project.name>MADHAV_NICHOLOS</talend.project.name>
