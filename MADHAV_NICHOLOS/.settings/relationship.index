@@ -5,6 +5,10 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "_oSSSYB5pEeuSnrMuGKnh1A",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
     "id" : "_pNA6cB5XEeuSnrMuGKnh1A",
     "version" : "Latest",
     "type" : "property"
@@ -72,6 +76,10 @@
     "id" : "TalendStringUtil",
     "version" : "Latest",
     "type" : "routine"
+  }, {
+    "id" : "_oSSSYB5pEeuSnrMuGKnh1A - metadata",
+    "version" : "Latest",
+    "type" : "schema"
   }, {
     "id" : "_pNA6cB5XEeuSnrMuGKnh1A - metadata",
     "version" : "Latest",
