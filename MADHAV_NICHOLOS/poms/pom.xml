@@ -10,9 +10,6 @@
   <url>http://www.talend.org/</url>
   <modules>
     <module>jobs/process/tmc_api__getartfid_by_artfname_wsname_1.0</module>
-    <module>jobs/process/test_0.1</module>
-    <module>jobs/process/test_0.2</module>
-    <module>jobs/process/test_1.0</module>
     <module>code/routines</module>
     <module>code/beans</module>
     <module>jobs/process/nexus_0.1</module>
