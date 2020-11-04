@@ -143,10 +143,6 @@
     "version" : "Latest",
     "type" : "property"
   }, {
-    "id" : "_qmSscB5VEeuSnrMuGKnh1A",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
     "id" : "DQTechnical",
     "version" : "Latest",
     "type" : "routine"
@@ -208,10 +204,6 @@
     "type" : "routine"
   }, {
     "id" : "_pNA6cB5XEeuSnrMuGKnh1A - metadata",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_qmSscB5VEeuSnrMuGKnh1A - metadata",
     "version" : "Latest",
     "type" : "schema"
   } ]
