@@ -9,7 +9,6 @@
   <name>MADHAV_NICHOLOS Codes Master</name>
   <url>http://www.talend.org/</url>
   <modules>
-    <module>jobs/process/tmc_api__getartfid_by_artfname_wsname_1.0</module>
     <module>code/routines</module>
     <module>code/beans</module>
     <module>jobs/process/nexus_0.1</module>
@@ -17,6 +16,7 @@
     <module>jobs/process/nexus_2.0</module>
     <module>jobs/process/copy_of_tmc_api__getartfid_by_artfname_wsname_1.0</module>
     <module>jobs/process/copy2_of_tmc_api__getartfid_by_artfname_wsname_a_1.0</module>
+    <module>jobs/process/tmc_create_task_1.0</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
