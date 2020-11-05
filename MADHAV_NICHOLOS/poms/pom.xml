@@ -18,6 +18,7 @@
     <module>jobs/process/copy2_of_tmc_api__getartfid_by_artfname_wsname_a_1.0</module>
     <module>jobs/process/tmc_create_task_1.0</module>
     <module>jobs/process/working_tmc_create_task_1.0</module>
+    <module>jobs/process/copy_of_tmc_create_task_1.0</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
