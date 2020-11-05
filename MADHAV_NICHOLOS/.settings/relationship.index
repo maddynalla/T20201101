@@ -5,6 +5,10 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "_YNIZ8B-sEeu2jcWbouzt5g",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
     "id" : "__poAcB8SEeu2jcWbouzt5g",
     "version" : "Latest",
     "type" : "property"
@@ -80,6 +84,10 @@
     "id" : "TalendStringUtil",
     "version" : "Latest",
     "type" : "routine"
+  }, {
+    "id" : "_YNIZ8B-sEeu2jcWbouzt5g - metadata",
+    "version" : "Latest",
+    "type" : "schema"
   }, {
     "id" : "__poAcB8SEeu2jcWbouzt5g - metadata",
     "version" : "Latest",
