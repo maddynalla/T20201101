@@ -42,7 +42,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:991K2XhaGzFFXx8wWEuZ63O35j3obJeNX+n3YJFE"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:F/nub/YVL4oeDG7BTt/U6Ko9gMWiN2dbUKidbjVg"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -77,7 +77,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:g3sjIGQ6BQkQsZU5zpwwdcHWeKcZVOo0OYdQbvRu"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Opkl+xU8M79Fw2kKS0LVVdIlWV3M8AgiEq4FXh4f"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -112,7 +112,7 @@
     <routinesParameter id="_1GI58BypEeuBsbJOy4LmyA" name="TalendStringUtil"/>
     <routinesParameter id="_1FvRUBypEeuBsbJOy4LmyA" name="TalendString"/>
   </parameters>
-  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="224">
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_1"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/maddy/Downloads/SalesOrderD&quot;"/>
@@ -136,37 +136,37 @@
     <elementParameter field="TEXT" name="NB_RANDOM" show="false" value="10"/>
     <elementParameter field="CHECK" name="TRIMALL" value="false"/>
     <elementParameter field="TABLE" name="TRIMSELECT">
-      <elementValue elementRef="SCHEMA_COLUMN" value="MANDT"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Client"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="VBELN"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SDDNumber"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="AUART"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SDDType"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="AUFNR"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OrderNumber"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="VKGRP"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Salesgroup"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="POSNR"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ItemNumber"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PARVW"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PartnerFunction"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="KUNNR"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CustomerNumber"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="LIFNR"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AccNumberofCreditor"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="LAND1"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CountryKey"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ADRDA"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Address"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ADRNR"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Address2"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="MATNR"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MaterialNumber"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CHARG"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BatchNumber"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="MATKL"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MaterialGroup"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="GRKOR"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DeliveryGroup"/>
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
@@ -176,82 +176,82 @@
     <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
     <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
     <elementParameter field="TABLE" name="DECODE_COLS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="MANDT"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Client"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="VBELN"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SDDNumber"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="AUART"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SDDType"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="AUFNR"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OrderNumber"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="VKGRP"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Salesgroup"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="POSNR"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ItemNumber"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PARVW"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PartnerFunction"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="KUNNR"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CustomerNumber"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="LIFNR"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AccNumberofCreditor"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="LAND1"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CountryKey"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ADRDA"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Address"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ADRNR"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Address2"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="MATNR"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MaterialNumber"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CHARG"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BatchNumber"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="MATKL"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MaterialGroup"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="GRKOR"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DeliveryGroup"/>
       <elementValue elementRef="DECODE" value="false"/>
     </elementParameter>
     <elementParameter field="TEXT" name="DESTINATION" show="false" value=""/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFileInputDelimited_1">
-      <column comment="Client" key="true" length="3" name="MANDT" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
-      <column comment="Sales and Distribution Document Number" key="true" length="10" name="VBELN" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
-      <column comment="Sales Document Type" key="false" length="4" name="AUART" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
-      <column comment="Order Number" key="false" length="12" name="AUFNR" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
-      <column comment="Sales group" key="false" length="3" name="VKGRP" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
-      <column comment="Item number of the SD document" defaultValue="" key="true" length="6" name="POSNR" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
-      <column comment="Partner Function" key="true" length="2" name="PARVW" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
-      <column comment="Customer Number" key="false" length="10" name="KUNNR" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
-      <column comment="Account Number of Vendor or Creditor" key="false" length="10" name="LIFNR" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
-      <column comment="Country Key" key="false" length="3" name="LAND1" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
-      <column comment="Address indicator" key="false" length="1" name="ADRDA" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
-      <column comment="Address" key="false" length="10" name="ADRNR" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
-      <column comment="Material Number" defaultValue="" key="false" length="40" name="MATNR" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
-      <column comment="Batch Number" defaultValue="" key="false" length="10" name="CHARG" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
-      <column comment="Material Group" defaultValue="" key="false" length="9" name="MATKL" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
-      <column comment="Delivery Group (Items are delivered together)" defaultValue="" key="false" length="3" name="GRKOR" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="Client" key="true" length="3" name="Client" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Sales and Distribution Document Number" key="true" length="10" name="SDDNumber" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Sales Document Type" key="false" length="4" name="SDDType" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Order Number" key="false" length="12" name="OrderNumber" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Sales group" key="false" length="3" name="Salesgroup" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Item number of the SD document" defaultValue="" key="true" length="6" name="ItemNumber" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="Partner Function" key="true" length="2" name="PartnerFunction" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Customer Number" key="false" length="10" name="CustomerNumber" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Account Number of Vendor or Creditor" key="false" length="10" name="AccNumberofCreditor" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Country Key" key="false" length="3" name="CountryKey" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Address indicator" key="false" length="1" name="Address" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Address" key="false" length="10" name="Address2" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Material Number" key="false" length="40" name="MaterialNumber" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Batch Number" key="false" length="10" name="BatchNumber" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Material Group" key="false" length="9" name="MaterialGroup" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Delivery Group (Items are delivered together)" defaultValue="" key="false" length="3" name="DeliveryGroup" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" name="REJECT">
-      <column comment="Client" key="true" length="3" name="MANDT" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
-      <column comment="Sales and Distribution Document Number" key="true" length="10" name="VBELN" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
-      <column comment="Sales Document Type" key="false" length="4" name="AUART" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
-      <column comment="Order Number" key="false" length="12" name="AUFNR" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
-      <column comment="Sales group" key="false" length="3" name="VKGRP" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
-      <column comment="Item number of the SD document" defaultValue="" key="true" length="6" name="POSNR" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
-      <column comment="Partner Function" key="true" length="2" name="PARVW" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
-      <column comment="Customer Number" key="false" length="10" name="KUNNR" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
-      <column comment="Account Number of Vendor or Creditor" key="false" length="10" name="LIFNR" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
-      <column comment="Country Key" key="false" length="3" name="LAND1" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
-      <column comment="Address indicator" key="false" length="1" name="ADRDA" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
-      <column comment="Address" key="false" length="10" name="ADRNR" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
-      <column comment="Material Number" defaultValue="" key="false" length="40" name="MATNR" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
-      <column comment="Batch Number" defaultValue="" key="false" length="10" name="CHARG" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
-      <column comment="Material Group" defaultValue="" key="false" length="9" name="MATKL" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
-      <column comment="Delivery Group (Items are delivered together)" defaultValue="" key="false" length="3" name="GRKOR" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="Client" key="true" length="3" name="Client" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Sales and Distribution Document Number" key="true" length="10" name="SDDNumber" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Sales Document Type" key="false" length="4" name="SDDType" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Order Number" key="false" length="12" name="OrderNumber" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Sales group" key="false" length="3" name="Salesgroup" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Item number of the SD document" defaultValue="" key="true" length="6" name="ItemNumber" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="Partner Function" key="true" length="2" name="PartnerFunction" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Customer Number" key="false" length="10" name="CustomerNumber" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Account Number of Vendor or Creditor" key="false" length="10" name="AccNumberofCreditor" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Country Key" key="false" length="3" name="CountryKey" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Address indicator" key="false" length="1" name="Address" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Address" key="false" length="10" name="Address2" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Material Number" key="false" length="40" name="MaterialNumber" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Batch Number" key="false" length="10" name="BatchNumber" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Material Group" key="false" length="9" name="MaterialGroup" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Delivery Group (Items are delivered together)" defaultValue="" key="false" length="3" name="DeliveryGroup" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMSSqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="608" posY="224">
+  <node componentName="tMSSqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="608" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutput_1"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_I7_K4CK8EeuFAoPuV8WO-w"/>
@@ -264,14 +264,14 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;ifs&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
     <elementParameter field="TEXT" name="USER" value="&quot;admin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:3gVXaQWVChThStSPySfGyN3SUrTFwM+R1x8do5lh9EF3mnScyAY="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:FgZl44VFrr7gl19OfwH/xkf7tb/IUikRS/F5AyRV4Ful9MEYmfg="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;SalesOrder&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE_IF_NOT_EXISTS"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="NOTE: batch size must be less than or equal to total number of parameter markers divided by number of columns"/>
     <elementParameter field="CHECK" name="SPECIFY_IDENTITY_FIELD" value="false"/>
-    <elementParameter field="COLUMN_LIST" name="IDENTITY_FIELD" show="false" value="MANDT"/>
+    <elementParameter field="COLUMN_LIST" name="IDENTITY_FIELD" show="false" value="Client"/>
     <elementParameter field="TEXT" name="START_VALUE" show="false" value="1"/>
     <elementParameter field="TEXT" name="STEP" show="false" value="1"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
@@ -288,82 +288,82 @@
     <elementParameter field="TABLE" name="ADD_COLS"/>
     <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
     <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="MANDT"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Client"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="VBELN"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SDDNumber"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="AUART"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SDDType"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="AUFNR"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OrderNumber"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="VKGRP"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Salesgroup"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="POSNR"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ItemNumber"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PARVW"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PartnerFunction"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="KUNNR"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CustomerNumber"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="LIFNR"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AccNumberofCreditor"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="LAND1"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CountryKey"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ADRDA"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Address"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ADRNR"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Address2"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="MATNR"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MaterialNumber"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CHARG"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BatchNumber"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="MATKL"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MaterialGroup"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="GRKOR"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DeliveryGroup"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
@@ -377,40 +377,40 @@
     <elementParameter field="TEXT" name="LABEL" value="IFS_MSSQL"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBOutput_1">
-      <column comment="Client" key="true" length="3" name="MANDT" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="Sales and Distribution Document Number" key="true" length="10" name="VBELN" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="Sales Document Type" key="false" length="4" name="AUART" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="Order Number" key="false" length="12" name="AUFNR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="Sales group" key="false" length="3" name="VKGRP" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="Item number of the SD document" defaultValue="" key="true" length="6" name="POSNR" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="Partner Function" key="true" length="2" name="PARVW" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="Customer Number" key="false" length="10" name="KUNNR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="Account Number of Vendor or Creditor" key="false" length="10" name="LIFNR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="Country Key" key="false" length="3" name="LAND1" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="Address indicator" key="false" length="1" name="ADRDA" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="Address" key="false" length="10" name="ADRNR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="Material Number" defaultValue="" key="false" length="40" name="MATNR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="Batch Number" defaultValue="" key="false" length="10" name="CHARG" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="Material Group" defaultValue="" key="false" length="9" name="MATKL" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="Delivery Group (Items are delivered together)" defaultValue="" key="false" length="3" name="GRKOR" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="Client" key="true" length="3" name="Client" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="Sales and Distribution Document Number" key="true" length="10" name="SDDNumber" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="Sales Document Type" key="false" length="4" name="SDDType" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="Order Number" key="false" length="12" name="OrderNumber" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="Sales group" key="false" length="3" name="Salesgroup" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="Item number of the SD document" defaultValue="" key="true" length="6" name="ItemNumber" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="Partner Function" key="true" length="2" name="PartnerFunction" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="Customer Number" key="false" length="10" name="CustomerNumber" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="Account Number of Vendor or Creditor" key="false" length="10" name="AccNumberofCreditor" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="Country Key" key="false" length="3" name="CountryKey" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="Address indicator" key="false" length="1" name="Address" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="Address" key="false" length="10" name="Address2" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="Material Number" key="false" length="40" name="MaterialNumber" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="Batch Number" key="false" length="10" name="BatchNumber" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="Material Group" key="false" length="9" name="MaterialGroup" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="Delivery Group (Items are delivered together)" defaultValue="" key="false" length="3" name="DeliveryGroup" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" name="REJECT">
-      <column comment="Client" key="true" length="3" name="MANDT" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="Sales and Distribution Document Number" key="true" length="10" name="VBELN" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="Sales Document Type" key="false" length="4" name="AUART" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="Order Number" key="false" length="12" name="AUFNR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="Sales group" key="false" length="3" name="VKGRP" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="Item number of the SD document" defaultValue="" key="true" length="6" name="POSNR" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="Partner Function" key="true" length="2" name="PARVW" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="Customer Number" key="false" length="10" name="KUNNR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="Account Number of Vendor or Creditor" key="false" length="10" name="LIFNR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="Country Key" key="false" length="3" name="LAND1" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="Address indicator" key="false" length="1" name="ADRDA" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="Address" key="false" length="10" name="ADRNR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="Material Number" defaultValue="" key="false" length="40" name="MATNR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="Batch Number" defaultValue="" key="false" length="10" name="CHARG" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="Material Group" defaultValue="" key="false" length="9" name="MATKL" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="Delivery Group (Items are delivered together)" defaultValue="" key="false" length="3" name="GRKOR" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="Client" key="true" length="3" name="Client" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="Sales and Distribution Document Number" key="true" length="10" name="SDDNumber" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="Sales Document Type" key="false" length="4" name="SDDType" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="Order Number" key="false" length="12" name="OrderNumber" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="Sales group" key="false" length="3" name="Salesgroup" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="Item number of the SD document" defaultValue="" key="true" length="6" name="ItemNumber" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="Partner Function" key="true" length="2" name="PartnerFunction" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="Customer Number" key="false" length="10" name="CustomerNumber" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="Account Number of Vendor or Creditor" key="false" length="10" name="AccNumberofCreditor" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="Country Key" key="false" length="3" name="CountryKey" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="Address indicator" key="false" length="1" name="Address" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="Address" key="false" length="10" name="Address2" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="Material Number" key="false" length="40" name="MaterialNumber" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="Batch Number" key="false" length="10" name="BatchNumber" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="Material Group" key="false" length="9" name="MaterialGroup" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="Delivery Group (Items are delivered together)" defaultValue="" key="false" length="3" name="DeliveryGroup" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
@@ -424,13 +424,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_c6f4f996-5d8b-4f37-926d-854dd2c17b76"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>7OJwK31Bh5dXoRtgVqvEmH/9YccB9UAJTp6iw6hcyXlzJGp7MGp4yn6PATUde+sbNfbJxGpl+/cI&#13;
-h4yu3viO2g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_3ddc2793-cc8a-4c30-98fc-e6f25c316069"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>QVwrMbtWyUKSwWYr4rUdGry/UBKdGwpZs6wA945wp9UL9h/xW9ClUhGf3l+gZbHZiQooJ7f6YCbT&#13;
-qytpvFqNgA==</DigestValue></Reference></SignedInfo><SignatureValue>V18S/eFRpXF7Sue06gzzxTvqNP7/7Dvdu02i+C47Y9KF0i5OCEJgFdo5aXG/6O7k+yV2+4laQit8&#13;
-JuXiOFYu1nslfQnNgKGhU6MfBGm3gLAgeELfgvQsZ33Glam8c8OfHrsUZwiYJXGrAWyZoaEB8DVd&#13;
-ZQ2hlAvBHD7ZKSiKCR3xcgOJhXjb/XG1rDCQVtMRbnnmivToL5uIv9Gwvtz3yBQR+U9xW1bnoRQ2&#13;
-8OjKCb8JuqCx9EAImb9l3wBECQRqR5DuH/j3KHz8Z0Os/p2l/wDcJHDn01uJGbQlK4xP1woCvvte&#13;
-COEDnHkiZ7MLEwvEUkA4V6YG3sN/oanVBoP07Q==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_051e8cff-7cac-44b0-9760-7dc00dc78960"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>TrHF1DbIZnFQwLDnhOhmBx0vJ79W+2jvupTtkKy5/JiqruyFL+kQ0e14We+U85uAck7A9k8XgyGM&#13;
+pJgeLPwxQQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_4042769d-af9f-4569-bfe3-1bb541b5b986"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Q2MyAYLHAVTJijOol5v0oTUOZNg0QJ3rFTAHzIKcTfR7d8j+yJsNJ7IiPBzHMcw3E+O+6o30PHka&#13;
+SH/izANyHA==</DigestValue></Reference></SignedInfo><SignatureValue>Bra+mKtX+2b30bWYLigBpLVocHeZg1PtsE4wt/H3qLbdSwtLsbzvmRhUj3xSV3p/Ocvr+1rhxSUl&#13;
+PCOo45BeqDF3hC0mRpyYxr1kN1vfILEGqtLvc/LR1AqIo9+gm/7KzJi+QoKs9UMMo9q2CXM5pQWy&#13;
+bMLX2UvrlZQF2MFTire2/xLDChcqQt9pyZFB2kWgqREGgys+XnRiidkfYYftHfhsDJuODnKxQ6DK&#13;
+B8B58aHVZH/vqyhwkPJjnKWIPui/lbrITzmzN/fHMoPrYfX5edsGMAXLaGzQ8xBl7ZHrnY2VjLIH&#13;
+9Lp1FPSz2QtqV4jwuQXszy4/LCZtTAraQGMNnw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -452,4 +452,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_3ddc2793-cc8a-4c30-98fc-e6f25c316069" Target="#_c6f4f996-5d8b-4f37-926d-854dd2c17b76"><Timestamp>2020-11-09 20:33:21</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_4042769d-af9f-4569-bfe3-1bb541b5b986" Target="#_051e8cff-7cac-44b0-9760-7dc00dc78960"><Timestamp>2020-11-09 20:43:45</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
