@@ -191,10 +191,6 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_2xDe8CLQEeuFAoPuV8WO-w",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
     "id" : "_7UxvgCLVEeuFAoPuV8WO-w",
     "version" : "Latest",
     "type" : "property"
@@ -262,10 +258,6 @@
     "id" : "TalendStringUtil",
     "version" : "Latest",
     "type" : "routine"
-  }, {
-    "id" : "_2xDe8CLQEeuFAoPuV8WO-w - metadata",
-    "version" : "Latest",
-    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
