@@ -26,6 +26,7 @@
     <module>jobs/process/IFS/ifs_2_sf_0.1</module>
     <module>jobs/process/IFS/ifs_2_sf_contact_0.1</module>
     <module>jobs/process/IFS/sf_2_ifs_contact_0.1</module>
+    <module>jobs/process/mapper_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
