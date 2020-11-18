@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='150' id='1' V150='13' creationTimestamp='0x175dcfd9364' V1='4' name='test_demlimted_input' incarnation='59'>
+<root t='150' id='1' V150='13' creationTimestamp='0x175dd563b48' V1='4' name='test_demlimted_input' incarnation='61'>
   <rootElem t='167' id='2' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='csv'>
     <structNode t='150' idref='1'/>
     <child t='167' id='3' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='row' checksumValid='true' checksum='8eQLjVtnBqLMG6v5dsAbKWa1Xvo='>
@@ -197,7 +197,7 @@
       </child>
     </child>
   </rootElem>
-  <defaultRep t='183' id='52' V183='1' V170='10' V706='1' defaultHeader='Col' delimiter='|' quoteCharacter='"' quoteMode='4' newLineType='2' newLine='&#xD;&#xA;' V690='1' encoding='UTF-8' importDate='Wed Nov 18 14:13:38 CST 2020' importFile='file:/C:/Users/maddy/Desktop/Altruista/Files/test_demlimted_input.txt' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='CSV'>
+  <defaultRep t='183' id='52' V183='1' V170='10' V706='1' defaultHeader='Col' delimiter='|' quoteCharacter='"' quoteMode='4' newLineType='2' newLine='&#xD;&#xA;\r\n' V690='1' encoding='UTF-8' importDate='Wed Nov 18 15:50:35 CST 2020' importFile='file:/C:/Users/maddy/Desktop/Altruista/Files/test_demlimted_input.txt' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='CSV'>
   </defaultRep>
   <rowElem t='167' idref='3'/>
   <child t='162' id='53' V1='4' name='Representations'>
