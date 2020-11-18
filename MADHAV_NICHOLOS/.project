@@ -10,4 +10,11 @@
 		<nature>org.talend.core.talendnature</nature>
 		<nature>com.oaklandsw.transform.runtime.nature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>Sample Data/X217-admission-response-to-request-for-review.edi</name>
+			<type>1</type>
+			<location>C:/Users/maddy/Desktop/X217-admission-response-to-request-for-review.edi</location>
+		</link>
+	</linkedResources>
 </projectDescription>
