@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='150' id='1' V150='13' creationTimestamp='0x144f1558a4e' docFolder='/X12_5010_HIPAA Examples/Sample Data/5010/278_Claim_Review' V1='4' name='278-A3-HL-' incarnation='18'>
+  <rootElem t='167' id='2' V167='21' inheritsFromIncarnation='1968' inheritsFromTimestamp='0x11d2d58de4d' inheritsInThisStruct='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='23' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='X12_5010_HIPAA:Structures/Transactions/278-A3-ENV.xml' V281='13' V1='4' name='Interchange'>
+    <structNode t='150' idref='1'/>
+    <savedDerivedCopy t='167' id='3' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='23' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='X12_5010_HIPAA:Structures/Transactions/278-A3-ENV.xml' V281='13' V1='4'>
+    </savedDerivedCopy>
+    <savedOrigCopyAtInheritsFrom t='167' id='4' V167='21' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' modifiedFromParent_validate='true' modifiedFromParent_emit='true' modifiedFromParent_ispresent='true' modifiedFromParent_null='true' modifiedFromParent_io='true' modifiedFromParent_value='true' modifiedFromParent_util='true' V1='4' name='Interchange' incarnation='2'>
+    </savedOrigCopyAtInheritsFrom>
+  </rootElem>
+  <defaultRep t='171' id='5' V171='7' ediNamespace='http://www.edifecs.com/xdata/100' hlTemplateStruct='' ediXmlType='1' importCodes='true' importCodesIntoDir='true' V170='10' V691='1' segmentDelim='~' elemDelim='*' subElemDelim='\' repetitionDelim='^' ediType='2' V690='1' padOutput='true' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='EDI' incarnation='2'>
+  </defaultRep>
+  <child t='162' id='6' V1='4' name='Representations'>
+    <child t='171' idref='5'/>
+    <child t='172' id='7' V172='6' autoFixNamespaceMismatch='true' V170='10' V692='1' V690='1' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='XML' incarnation='2'>
+    </child>
+  </child>
+  <child t='165' id='8' V1='4' name='Document Bindings'>
+    <child t='166' id='9' V166='5' docType='1' docReposPath='/X12_5010_HIPAA Examples/Sample Data/5010/278_Claim_Review/X217278r-all-segments-new.edi' V1='4' name='/Interchange'>
+      <elemNode t='167' idref='2'/>
+      <structNode t='150' idref='1'/>
+    </child>
+  </child>
+</root>
