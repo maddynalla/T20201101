@@ -1,0 +1,80 @@
+package routines;
+
+import org.apache.commons.lang.StringUtils;
+
+public class SplitingNos {
+
+	public static String getNos(String nos) {
+        String[] list = nos.split(",");
+        StringBuffer buffer = new StringBuffer();
+        for(int i = 0; i < list.length; i++) {
+        	if(list[i].contains("-")) {
+        		String[] nos1 = list[i].split("-");
+        		int startno = 0, endno = 0, diff = 0;
+        		StringBuffer s2 = new StringBuffer();
+        		if(!(StringUtils.isNumeric(nos1[0]) && StringUtils.isNumeric(nos1[1]))) {
+        			char[] charsnos1 = nos1[0].toCharArray();
+        			char[] charsnos2 = nos1[1].toCharArray();
+    		        if(Character.isLetter(charsnos1[1]) && Character.isLetter(charsnos2[1])) {
+    		        	StringBuffer buffer1 = new StringBuffer();
+    		        	StringBuffer buffer2 = new StringBuffer();
+    		        	for(int c1 = 2; c1 < charsnos1.length; c1++) {
+    		        		buffer1.append(charsnos1[c1]);
+    		        	}
+    		        	for(int c2 = 2; c2 < charsnos2.length; c2++) {
+    		        		buffer2.append(charsnos2[c2]);
+    		        	}
+    		        	startno = Integer.parseInt(buffer1.toString());
+    		        	endno = Integer.parseInt(buffer2.toString());
+    		        	diff = endno - startno;
+    		        	
+    		        	s2.append(charsnos1[0]).append(charsnos1[1]);
+    		        } else {
+    		        	char[] chars1 = nos1[0].toCharArray();
+    		        	char[] chars2 = nos1[1].toCharArray();
+    		        	StringBuffer buf1 = new StringBuffer();
+    		        	StringBuffer buf2 = new StringBuffer();
+    		        	for(int s1 = 1; s1 < chars1.length; s1++) {
+    		        		buf1.append(chars1[s1]);
+    		        	}
+    		        	for(int s3 = 1; s3 < chars2.length; s3++) {
+    		        		buf2.append(chars2[s3]);
+    		        	}
+    		        	startno = Integer.parseInt(buf1.toString());
+    		        	endno = Integer.parseInt(buf2.toString());
+    		        	diff = endno - startno;
+    		        	s2.append(chars1[0]);
+    		        }
+    		        Integer laterLength = new StringBuffer().append(s2.toString()).append(String.valueOf(startno)).toString().length();
+		        	Integer initialLength = nos1[0].length();
+		        	Integer diffenence = initialLength - laterLength;
+		        	if(diffenence > 0) {
+		        		for(int d = 0; d < diffenence; d++) {
+		        			s2.append("0");
+		        		}
+		        	}
+    		        for(int j = 0; j <= diff; j++) {
+    		        	buffer.append(s2.toString());
+	        			buffer.append(String.valueOf(startno + j));
+	        			if(j != diff || i != list.length - 1)
+	        				buffer.append(",");
+	        		}
+        		} else {
+	        		startno = Integer.parseInt(nos1[0]);
+	        		endno = Integer.parseInt(nos1[1]);
+	        		diff = endno - startno;
+	        		for(int j = 0; j <= diff; j++) {
+	        			buffer.append(String.valueOf(startno + j));
+	        			if(j != diff || i != list.length - 1)
+	        				buffer.append(",");
+	        		}
+        		}
+        	} else {
+        		buffer.append(list[i]);
+        		if(i != list.length - 1)
+        			buffer.append(",");
+        	}
+        }
+        return buffer.toString();
+    }
+}

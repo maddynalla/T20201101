@@ -1,0 +1,45 @@
+package routines;
+public class SplitCountryName {
+	public static String country;
+	    public static String  getCountryName(String address) {
+		    	//String str=" MI 48083 - 1364United States";
+				 String regex = "((?<=[a-zA-Z])(?=[0-9]))|((?<=[0-9])(?=[a-zA-Z]))";
+				 java.util.Arrays.asList(address.split(regex)).toString();
+				  String str  =java.util.Arrays.asList(address.split(regex)).toString();
+		    	return str;
+		    }
+		}
+
+	/*private static void setCountryName(String address2) {
+		char chars[] = address2.toCharArray();
+		StringBuffer buf = new StringBuffer();
+		buf.append(chars[chars.length - 2]).append(chars[chars.length - 1]);
+		country = buf.toString().trim();
+		address2 = address2.replaceAll(country, "").trim();
+	}*/
+	
+	/*private static String initializeValues(String address) {
+		if(address.equals(null))
+		{
+			return "";
+		}else{
+		StringBuffer replaceString = new StringBuffer();
+		String[] listStrings;
+		String regex = "((?<=[a-zA-Z])(?=[0-9]))|((?<=[0-9])(?=[a-zA-Z]))";
+		if(address.matches(regex)) {
+		listStrings =address.split(regex);
+		replaceString=replaceString.append(listStrings[listStrings.length-1].toString());
+		}
+		return replaceString.toString().trim();
+		} 
+	}
+	public static String getCountryName(String address2) {
+		initializeValues(address2);
+		return country;
+	} */
+	/*public static void getCountryName(String address2) {
+		StringBuffer buf=new StringBuffer();
+		String regex = "((?<=[a-zA-Z])(?=[0-9]))|((?<=[0-9])(?=[a-zA-Z]))";
+		String[] listStrings = address2.split(regex);
+	    buf.append(listStrings).toString();
+	}*/	

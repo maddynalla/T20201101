@@ -1,0 +1,58 @@
+package routines;
+
+/*
+ * user specification: the function's comment should contain keys as follows: 1. write about the function's comment.but
+ * it must be before the "{talendTypes}" key.
+ * 
+ * 2. {talendTypes} 's value must be talend Type, it is required . its value should be one of: String, char | Character,
+ * long | Long, int | Integer, boolean | Boolean, byte | Byte, Date, double | Double, float | Float, Object, short |
+ * Short
+ * 
+ * 3. {Category} define a category for the Function. it is required. its value is user-defined .
+ * 
+ * 4. {param} 's format is: {param} <type>[(<default value or closed list values>)] <name>[ : <comment>]
+ * 
+ * <type> 's value should be one of: string, int, list, double, object, boolean, long, char, date. <name>'s value is the
+ * Function's parameter name. the {param} is optional. so if you the Function without the parameters. the {param} don't
+ * added. you can have many parameters for the Function.
+ * 
+ * 5. {example} gives a example for the Function. it is optional.
+ */
+public class IRX_Money_Format {
+
+    /**
+     * helloExample: not return value, only print "hello" + message.
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("world") input: The string need to be printed.
+     * 
+     * {example} helloExemple("world") # hello world !.
+     */
+    public static String format(String m) {
+        if (m.contains("A"))
+            return m.replace("A","1"); 
+        if (m.contains("B"))
+        	return m.replace("B","2"); 
+        if (m.contains("C"))
+        	return m.replace("C","3");
+        if (m.contains("D"))
+        	return m.replace("D","4");
+        if (m.contains("E"))
+        	return m.replace("E","5");
+        if (m.contains("F"))
+        	return m.replace("F","6");
+        if (m.contains("G"))
+        	return m.replace("G","7");
+        if (m.contains("H"))
+        	return m.replace("H","8");
+        if (m.contains("I"))
+        	return m.replace("I","9");
+        if (m.contains("{"))
+        	return m.replace("{","0");
+		return m;
+    }  
+}

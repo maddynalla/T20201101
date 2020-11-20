@@ -1,0 +1,44 @@
+package routines;
+
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Locale;
+
+public class DateConversion {
+
+	public static java.util.Date juLianToDate(int date) {
+		int year = (date / 1000) + 1900;
+		int dayOfYear = date % 1000;
+		Calendar calendar = Calendar.getInstance();
+		calendar.set(Calendar.YEAR, year);
+		calendar.set(Calendar.DAY_OF_YEAR, dayOfYear);
+		return calendar.getTime();
+	}
+	
+	public static int dateToJulian(Date date) {
+		
+		DateFormat targetFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		String formattedDate = targetFormat.format(date);
+		Date newDate = TalendDate.parseDate("yyyy-MM-dd HH:mm:ss", formattedDate);
+		Calendar cal = Calendar.getInstance();
+		cal.setTime(newDate);
+	    int year = cal.get(Calendar.YEAR);
+	    int month = cal.get(Calendar.MONTH)+1;
+	    int day = cal.get(Calendar.DAY_OF_MONTH);
+	    int hour = cal.get(Calendar.HOUR_OF_DAY);
+	    int minute = cal.get(Calendar.MINUTE);
+	    int second = cal.get(Calendar.SECOND);
+
+	    double extra = (100.0 * year) + month - 190002.5;
+	    double retVal = (367.0 * year) -
+	  	      (Math.floor(7.0 * (year + Math.floor((month + 9.0) / 12.0)) / 4.0)) + 
+		      Math.floor((275.0 * month) / 9.0) +  
+		      day + ((hour + ((minute + (second / 60.0)) / 60.0)) / 24.0) +
+		      1721013.5 - ((0.5 * extra) / Math.abs(extra)) + 0.5;
+	    
+	    return (int) retVal; 
+	    
+	  }
+}

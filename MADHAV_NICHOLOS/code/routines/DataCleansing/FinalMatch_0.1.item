@@ -1,0 +1,58 @@
+package routines;
+
+import java.util.StringTokenizer;
+
+
+public class FinalMatch {
+	public static String getCountry(String message) {
+    	//String str=" MI 48083 - 1364United States";
+    	String str="";
+		 String regex = "((?<=[a-zA-Z])(?=[0-9]))|((?<=[0-9])(?=[a-zA-Z]))";
+	     message=message.trim();
+		 String s[]=message.split(regex);
+	
+	
+	String str1=s[0].toString();
+	
+	StringTokenizer st=new StringTokenizer(str1,"\n");
+while(st.hasMoreTokens())
+{
+	
+	//System.out.println(st.nextToken().toString());
+	
+   str=st.nextToken().toString();
+
+   
+}
+
+	return str;
+}
+	
+}
+	
+	
+
+	
+    /*public static String getCountry(String message) {
+    	//String str=" MI 48083 - 1364United States";
+    	String str="";
+		 String regex = "((?<=[a-zA-Z])(?=[0-9]))|((?<=[0-9])(?=[a-zA-Z]))";
+	     message=message.trim();
+		 String s[]=message.split(regex);
+	
+	
+	String str1=s[0].toString();
+	
+	StringTokenizer st=new StringTokenizer(str1,"\n");
+while(st.hasMoreTokens())
+{
+	
+	//System.out.println(st.nextToken().toString());
+	
+   str=st.nextToken().toString();
+
+   
+}
+
+	return str;
+}*/

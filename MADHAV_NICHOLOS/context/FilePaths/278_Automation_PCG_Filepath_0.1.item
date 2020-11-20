@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ContextType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" confirmationNeeded="false" name="Default" xmi:id="_tb1WICtOEeu4n8QSp9B7Jg" xmi:version="2.0">
+  <contextParameter comment="" name="PCGAUTHSFilePath_In_Outbound_Modified" prompt="PCGAUTHSFilePath_In_Outbound_Modified?" promptNeeded="false" type="id_String" value="" xmi:id="_tb1WIStOEeu4n8QSp9B7Jg"/>
+  <contextParameter comment="" name="PCGAUTHSFilePath_278_EDI_XML_Mapping_stg" prompt="PCGAUTHSFilePath_278_EDI_XML_Mapping_stg?" promptNeeded="false" type="id_String" value="" xmi:id="_tb1WIitOEeu4n8QSp9B7Jg"/>
+  <contextParameter comment="" name="PCGAUTHSFilePath_Out_SA_XML" prompt="PCGAUTHSFilePath_Out_SA_XML?" promptNeeded="false" type="id_String" value="" xmi:id="_tb1WIytOEeu4n8QSp9B7Jg"/>
+  <contextParameter comment="" name="PCGAUTHSFilePath_Archive_SA_XML" prompt="PCGAUTHSFilePath_Archive_SA_XML?" promptNeeded="false" type="id_String" value="" xmi:id="_tb1WJCtOEeu4n8QSp9B7Jg"/>
+  <contextParameter comment="" name="PCGAUTHSFilePath_278_XML_EDI_Mapping" prompt="PCGAUTHSFilePath_278_XML_EDI_Mapping?" promptNeeded="false" type="id_String" value="" xmi:id="_tb1WJStOEeu4n8QSp9B7Jg"/>
+  <contextParameter comment="" name="PCGAUTHSFilePath_InOut_Processed" prompt="PCGAUTHSFilePath_InOut_Processed?" promptNeeded="false" type="id_String" value="" xmi:id="_tb1WJitOEeu4n8QSp9B7Jg"/>
+  <contextParameter comment="" name="PCGAUTHSFilePath_278_EDI_XML_Mapping" prompt="PCGAUTHSFilePath_278_EDI_XML_Mapping?" promptNeeded="false" type="id_String" value="" xmi:id="_tb1WJytOEeu4n8QSp9B7Jg"/>
+  <contextParameter comment="" name="PCGAUTHSFilePath_OutIn_EDI_DbLoad_Files" prompt="PCGAUTHSFilePath_OutIn_EDI_DbLoad_Files?" promptNeeded="false" type="id_String" value="" xmi:id="_tb1WKCtOEeu4n8QSp9B7Jg"/>
+  <contextParameter comment="" name="PCGAUTHSFilePath_InOut_Outbound_EDI" prompt="PCGAUTHSFilePath_InOut_Outbound_EDI?" promptNeeded="false" type="id_String" value="" xmi:id="_tb1WKStOEeu4n8QSp9B7Jg"/>
+  <contextParameter comment="" name="PCGAUTHSFilePath_Archive_Outbound_EDI" prompt="PCGAUTHSFilePath_Archive_Outbound_EDI?" promptNeeded="false" type="id_String" value="" xmi:id="_tb1WKitOEeu4n8QSp9B7Jg"/>
+  <contextParameter comment="" name="PCGAUTHSFilePath_OutIn_Outbound_XML" prompt="PCGAUTHSFilePath_OutIn_Outbound_XML?" promptNeeded="false" type="id_String" value="" xmi:id="_tb1WKytOEeu4n8QSp9B7Jg"/>
+  <contextParameter comment="" name="PCGAUTHSFilePath_Archive_XML" prompt="PCGAUTHSFilePath_Archive_XML?" promptNeeded="false" type="id_String" value="" xmi:id="_tb1WLCtOEeu4n8QSp9B7Jg"/>
+  <contextParameter comment="" name="PCGAUTHSFilePath_OutIn_XML_Files" prompt="PCGAUTHSFilePath_OutIn_XML_Files?" promptNeeded="false" type="id_String" value="" xmi:id="_tb1WLStOEeu4n8QSp9B7Jg"/>
+  <contextParameter comment="" name="PCGAUTHSFilePath_In_999_EDI_Files" prompt="PCGAUTHSFilePath_In_999_EDI_Files?" promptNeeded="false" type="id_String" value="" xmi:id="_tb1WLitOEeu4n8QSp9B7Jg"/>
+  <contextParameter comment="" name="PCGAUTHSFilePath_999_EDI_XML_Mapping" prompt="PCGAUTHSFilePath_999_EDI_XML_Mapping?" promptNeeded="false" type="id_String" value="" xmi:id="_tb1WLytOEeu4n8QSp9B7Jg"/>
+  <contextParameter comment="" name="PCGAUTHSFilePath_OutIn_999_XML" prompt="PCGAUTHSFilePath_OutIn_999_XML?" promptNeeded="false" type="id_String" value="" xmi:id="_tb1WMCtOEeu4n8QSp9B7Jg"/>
+  <contextParameter comment="" name="PCGAUTHSFilePath_Archive_999_XML" prompt="PCGAUTHSFilePath_Archive_999_XML?" promptNeeded="false" type="id_String" value="" xmi:id="_tb1WMStOEeu4n8QSp9B7Jg"/>
+  <contextParameter comment="" name="PCGAUTHSFilePath_In_AuthsToVerify_Sheet" prompt="PCGAUTHSFilePath_In_AuthsToVerify_Sheet?" promptNeeded="false" type="id_String" value="" xmi:id="_tb1WMitOEeu4n8QSp9B7Jg"/>
+  <contextParameter comment="" name="PCGAUTHSFilePath_Archive_AuthsToVerify_Sheet" prompt="PCGAUTHSFilePath_Archive_AuthsToVerify_Sheet?" promptNeeded="false" type="id_String" value="" xmi:id="_tb1WMytOEeu4n8QSp9B7Jg"/>
+  <contextParameter comment="" name="PCGAUTHSFilePath_Out_AuthsToVerify_Sheet_Duplicates" prompt="PCGAUTHSFilePath_Out_AuthsToVerify_Sheet_Duplicates?" promptNeeded="false" type="id_String" value="" xmi:id="_tb1WNCtOEeu4n8QSp9B7Jg"/>
+  <contextParameter comment="" name="PCGAUTHSFilePath_In_Inbound_Files" prompt="PCGAUTHSFilePath_In_Inbound_Files?" promptNeeded="false" type="id_String" value="" xmi:id="_tb1WNStOEeu4n8QSp9B7Jg"/>
+  <contextParameter comment="" name="PCGAUTHSFilePath_Staging_Inbound_Files" prompt="PCGAUTHSFilePath_Staging_Inbound_Files?" promptNeeded="false" type="id_String" value="" xmi:id="_tb1WNitOEeu4n8QSp9B7Jg"/>
+  <contextParameter comment="" name="PCGAUTHSFilePath_Duplicate_Files" prompt="PCGAUTHSFilePath_Duplicate_Files?" promptNeeded="false" type="id_String" value="" xmi:id="_tb1WNytOEeu4n8QSp9B7Jg"/>
+  <contextParameter comment="" name="PCGAUTHSFilePath_Archive_Inbound_Files" prompt="PCGAUTHSFilePath_Archive_Inbound_Files?" promptNeeded="false" type="id_String" value="" xmi:id="_tb1WOCtOEeu4n8QSp9B7Jg"/>
+  <contextParameter comment="" name="PCGAUTHSFilePath_In_eCW_EDI_Camel" prompt="PCGAUTHSFilePath_In_eCW_EDI_Camel?" promptNeeded="false" type="id_String" value="" xmi:id="_tb1WOStOEeu4n8QSp9B7Jg"/>
+  <contextParameter comment="" name="PCGAUTHSFilePath_Out_CCAFilteredRecords" prompt="PCGAUTHSFilePath_Out_CCAFilteredRecords?" promptNeeded="false" type="id_String" value="null" xmi:id="_tb1WOitOEeu4n8QSp9B7Jg"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_4ed9a308-0c73-418f-9639-e5046e0ec27d"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>F3cXaBYXoyZrrQkeftSEifGYWH3DvwA1elhG3EkF+R4htizmMhab/arWiIjf/jXu2aO5GJciheRp&#13;
+oBcOR4T1Yw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f4bfbd86-6f89-4773-850b-5845ce614f10"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>pCGqc/QXRXSXXTctXVa67pnS67XkQMGrmvZjlTwMUXTf7p/wLuLCqxyBTZDC9jTl7bGhhDT/0G4w&#13;
+TwaR4HBFOA==</DigestValue></Reference></SignedInfo><SignatureValue>goRtqFBTFu2KXozRGpuLCwm2nx71ysJiyIjYCXZY6EvdsjPYUnk0YZDVyqn1oByC9Wuu+l0z1rBs&#13;
+M1mk/KjIsx1dnCzso8xsAfMmx57sqv/m64aQecKn37DFj12fVvsuMnGd3nJMDvy65w/8BcuFa1rD&#13;
+0U6KLs1LoAju94W/otxjrmz2T5XDSEBbvGtEBDapF+YEnnsWICHcjKFFhEEDF7gPFu2VQa0Dg57D&#13;
+oRvXKcfuaQEhlGmfYH/HRYOSGI0pta49MxPwZZQid3DW1/0SQlOPl1MlMNLI6RrIQW52KLf7rrKK&#13;
+Fok02d9tPLbVI/xlJyE9aU0mWSZMyt8jCQcZqQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f4bfbd86-6f89-4773-850b-5845ce614f10" Target="#_4ed9a308-0c73-418f-9639-e5046e0ec27d"><Timestamp>2020-11-20 16:37:42</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ContextType>

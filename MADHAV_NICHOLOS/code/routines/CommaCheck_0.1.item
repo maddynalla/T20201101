@@ -1,0 +1,64 @@
+package routines;
+
+public class CommaCheck {
+	
+	public static String helloExample(String message, String message1,String message2) {
+
+
+		
+		if(!message1.equals("")||message.equals("") ||message2.equals("")){
+			
+			if(message1.startsWith(",")||message1.endsWith(",")){
+			
+			String message4=message1.replaceAll(",", "");
+			
+			
+			return message+""+message4+""+message2;
+			}
+		}	
+		/*if(!message.equals("")||message1.equals("") ||message2.equals("")){
+			
+			if(message.startsWith(",")||message.endsWith(",")){
+			
+			String message3=message.replaceAll(",", "");
+			
+			
+			return message3+""+message1+""+message2;
+			}
+		}*/
+       
+		if (!(message.equals("") && message1.equals("") && message2.equals(""))) {
+			
+			if (message.endsWith(",")||message.startsWith(",")) {
+				
+				if (message1.startsWith(",")) {
+
+					String message3 = message1.replaceAll(",", "");
+					System.out.println(message+""+message3 +""+ message2);
+					
+					return message+"" +message3 +""+ message2;
+				}
+			  }
+			if (!(message.equals("") && message1.equals("") && message2.equals(""))) {
+			
+				
+				if (message1.endsWith(",")) {
+				
+				if (message2.startsWith(",")|| message2.endsWith(",")) {
+					
+					String message4 = message2.replaceAll(",","");
+					
+					return message+"" +message1 +""+ message4;
+				}
+			}
+			
+			
+ 
+		}
+			}
+		return "";
+		
+		
+
+	}
+}

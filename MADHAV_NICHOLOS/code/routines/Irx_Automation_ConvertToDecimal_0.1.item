@@ -1,0 +1,60 @@
+package routines;
+
+
+public class Irx_Automation_ConvertToDecimal {
+	
+	 public static double convert(String Amt)
+	   {
+		   		if(Amt.endsWith("{"))
+		   			Amt=Amt.replace( Amt.substring(Amt.length()-1),"0");	
+				if(Amt.endsWith("A"))
+					Amt=Amt.replace( Amt.substring(Amt.length()-1),"1");
+				if(Amt.endsWith("B"))
+					Amt=Amt.replace( Amt.substring(Amt.length()-1),"2");
+				if(Amt.endsWith("C"))
+					Amt=Amt.replace( Amt.substring(Amt.length()-1),"3");
+				if(Amt.endsWith("D"))
+					Amt=Amt.replace( Amt.substring(Amt.length()-1),"4");
+				if(Amt.endsWith("E"))
+					Amt=Amt.replace( Amt.substring(Amt.length()-1),"5");
+				if(Amt.endsWith("F"))
+					Amt=Amt.replace( Amt.substring(Amt.length()-1),"6");
+				if(Amt.endsWith("G"))
+					Amt=Amt.replace( Amt.substring(Amt.length()-1),"7");
+				if(Amt.endsWith("H"))
+					Amt=Amt.replace( Amt.substring(Amt.length()-1),"8");
+				if(Amt.endsWith("I"))
+					Amt=Amt.replace( Amt.substring(Amt.length()-1),"9");
+				
+				// Negative Values
+				
+				if(Amt.endsWith("}"))
+					Amt="-"+(Amt.replace( Amt.substring(Amt.length()-1),"0"));
+				if(Amt.endsWith("J"))
+					Amt="-"+(Amt.replace( Amt.substring(Amt.length()-1),"1"));
+				if(Amt.endsWith("K"))
+					Amt="-"+(Amt.replace( Amt.substring(Amt.length()-1),"2"));
+				if(Amt.endsWith("L"))
+					Amt="-"+(Amt.replace( Amt.substring(Amt.length()-1),"3"));
+				if(Amt.endsWith("M"))
+					Amt="-"+(Amt.replace( Amt.substring(Amt.length()-1),"4"));
+				if(Amt.endsWith("N"))
+					Amt="-"+(Amt.replace( Amt.substring(Amt.length()-1),"5"));
+				if(Amt.endsWith("O"))
+					Amt="-"+(Amt.replace( Amt.substring(Amt.length()-1),"6"));
+				if(Amt.endsWith("P"))
+					Amt="-"+(Amt.replace( Amt.substring(Amt.length()-1),"7"));
+				if(Amt.endsWith("Q"))
+					Amt="-"+(Amt.replace( Amt.substring(Amt.length()-1),"8"));
+				if(Amt.endsWith("R"))
+					Amt="-"+(Amt.replace( Amt.substring(Amt.length()-1),"9"));
+				
+				
+				
+				double amount=Double.parseDouble(Amt);
+				amount= (amount/100.0);
+				//System.out.println(amount);
+				return amount;	
+	   }
+
+}

@@ -1,0 +1,26 @@
+package routines;
+
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Date;
+import java.util.List;
+public class MPD_maxfileDate {
+
+    
+     
+	public static List<Date> fileBasenameList = new ArrayList<Date>();
+
+    public static void listCreation(Date date) {
+    	if(date != null)
+    		fileBasenameList.add(date);
+    }
+    
+    public static String getMaxdate() {
+    	SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd");
+    	Collections.sort(fileBasenameList);
+    	// System.out.println(fileBasenameList.get(0));
+    	// System.out.println("Max : " + fileBasenameList.get(fileBasenameList.size()-1));
+    	return sdf.format(fileBasenameList.get(fileBasenameList.size()-1));
+    }
+}

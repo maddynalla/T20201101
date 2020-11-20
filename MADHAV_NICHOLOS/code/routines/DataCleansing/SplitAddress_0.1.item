@@ -1,0 +1,71 @@
+package routines;
+public class SplitAddress
+{
+	public static String street, citypincode, city, statezipcode, state;
+
+	private static void setState(String statecode) {
+		char chars[] = statecode.toCharArray();
+		StringBuffer buf = new StringBuffer();
+		buf.append(chars[chars.length - 2]).append(chars[chars.length - 1]);
+		state = buf.toString().trim();
+		statezipcode = statecode.replaceAll(state, "").trim();
+	}
+	
+	private static void initializeValues(String address) {
+		StringBuffer replaceString = new StringBuffer();
+		String[] listStrings = address.split(" ");
+		String regex = "[0-9]+";
+		if(listStrings[listStrings.length - 3].matches(regex)) {
+			citypincode = listStrings[listStrings.length - 3].trim();
+			city = listStrings[listStrings.length - 2].trim();
+			replaceString.append(citypincode);
+			replaceString.append(" ");
+			replaceString.append(city);
+			replaceString.append(" ");
+			replaceString.append(listStrings[listStrings.length - 1]);
+		} else if(listStrings[listStrings.length - 4].matches(regex)) {
+			citypincode = listStrings[listStrings.length - 4].trim();
+			city = listStrings[listStrings.length - 3] + " " + listStrings[listStrings.length - 2].trim();
+			replaceString.append(citypincode);
+			replaceString.append(" ");
+			replaceString.append(city);
+			replaceString.append(" ");
+			replaceString.append(listStrings[listStrings.length - 1]);
+		} else if(listStrings[listStrings.length - 5].matches(regex)) {
+			citypincode = listStrings[listStrings.length - 5].trim();
+			city = listStrings[listStrings.length - 4] + " " + listStrings[listStrings.length - 3] + " " + listStrings[listStrings.length - 2].trim();
+			replaceString.append(citypincode);
+			replaceString.append(" ");
+			replaceString.append(city);
+			replaceString.append(" ");
+			replaceString.append(listStrings[listStrings.length - 1]);
+		}
+		street = address.replaceAll(replaceString.toString(), "").trim();
+		setState(listStrings[listStrings.length - 1]);
+	}
+	
+	public static String getStreet(String address) {
+		initializeValues(address);
+		return street;
+	}
+	
+	public static String getCityPinCode(String address) {
+		initializeValues(address);
+		return citypincode;
+	}
+	
+	public static String getCityName(String address) {
+		initializeValues(address);
+		return city;
+	}
+	
+	public static String getStateZipCode(String address) {
+		initializeValues(address);
+		return statezipcode;
+	}
+	
+	public static String getStateName(String address) {
+		initializeValues(address);
+		return state;
+	}
+}
