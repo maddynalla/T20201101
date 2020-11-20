@@ -29,6 +29,7 @@
     <module>jobs/process/CCA_PCG_Authorization/Authorization_Outbound/pcg_auth_xml_edi_tdm_0.2</module>
     <module>jobs/process/CCA_PCG_Authorization/Authorization_Outbound/pcg_modified_edi_0.1</module>
     <module>jobs/process/TCS_HealthCare/db_2_edi_0.1</module>
+    <module>jobs/process/TCS_HealthCare/hdrdtl_edi_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
