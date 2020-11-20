@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='190' id='1' V190='11' inStruct='Structures/Jobs/db_2_edi/tHMap_1/row5.xml' outStruct='X12_5010_HIPAA Examples:Structures/EDI/278-A3-ENV-Example.xml' inputRep='178' outputRep='171' nextMap='' inputStructUserName='row5' outputStructUserName='278-A3-ENV-Example' V1='4' name='tHMap_1' incarnation='20555'>
+<root t='190' id='1' V190='11' inStruct='Structures/Jobs/db_2_edi/tHMap_1/row5.xml' outStruct='X12_5010_HIPAA Examples:Structures/EDI/278-A3-ENV-Example.xml' inputRep='178' outputRep='171' nextMap='' inputStructUserName='row5' outputStructUserName='278-A3-ENV-Example' V1='4' name='tHMap_1' incarnation='20572'>
   <inputMapElem t='200' id='2' V200='8' input='true' structElemExists='true' usedCount='5' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='root'>
     <mapNode t='190' idref='1'/>
     <child t='200' id='2287' V200='8' input='true' structElemExists='true' usedCount='2' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='row'>
@@ -7516,7 +7516,7 @@
   <outputXmlRepRuntime t='692' id='2397' V692='1' V690='1'>
   </outputXmlRepRuntime>
   <child t='165' id='2283' V1='4' name='Document Bindings'>
-    <child t='166' id='2284' V166='5' docType='1' docReposPath='/MADHAV_NICHOLOS/Sample Data/Jobs/db_2_edi/tHMap_1/row5/Auth_278_Export_Sample_Data.csv' V1='4' name='in$/root'>
+    <child t='166' id='2284' V166='5' docType='1' docReposPath='/MADHAV_NICHOLOS/Sample Data/Jobs/db_2_edi/tHMap_1/row5/Auth_278_Export_Sample_Data_onerecord_flattened.txt' V1='4' name='in$/root'>
       <elemNode t='200' idref='2'/>
     </child>
     <child t='166' id='2285' V166='5' docType='2' docReposPath='/X12_5010_HIPAA Examples/Sample Data/5010/278_Claim_Review/X217278q-minimal-noenv.edi' V1='4' name='out$/Interchange'>

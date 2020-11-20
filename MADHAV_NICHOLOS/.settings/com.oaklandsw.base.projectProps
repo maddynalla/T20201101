@@ -14,6 +14,7 @@ Namespace Containers,com.oaklandsw.base,order,4
 Reports,com.oaklandsw.base,order,7
 Sample Data,com.oaklandsw.base,order,6
 Sample Data/Jobs/db_2_edi/tHMap_1/row5/Auth_278_Export_Sample_Data.csv,com.oaklandsw.transform,repNodeType,178
+Sample Data/Jobs/db_2_edi/tHMap_1/row5/Auth_278_Export_Sample_Data_onerecord_flattened.txt,com.oaklandsw.transform,repNodeType,178
 Structures,com.oaklandsw.base,order,0
 Structures/EDI_278_2.xml,com.oaklandsw.base,references.0,/X12_5010_HIPAA/Structures/Transactions/278-A3-ENV.xml,/Interchange
 Structures/T_278_XML.xml,com.oaklandsw.base,references.0,Namespace Containers/replace_SA_278_35720_sweep.xml
