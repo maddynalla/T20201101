@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='190' id='1' V190='11' inStruct='Structures/Jobs/HDRDTL_EDI/tHMap_1/row3.xml' outStruct='X12_5010_HIPAA Examples:Structures/EDI/278-A3-ENV-Example.xml' inputRep='178' outputRep='171' nextMap='' inputStructUserName='row3' outputStructUserName='278-A3-ENV-Example' V1='4' name='tHMap_1' incarnation='23030'>
-  <inputMapElem t='200' id='2' V200='8' input='true' structElemExists='true' usedCount='63' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='root'>
+<root t='190' id='1' V190='11' inStruct='Structures/Jobs/HDRDTL_EDI/tHMap_1/row3.xml' outStruct='X12_5010_HIPAA Examples:Structures/EDI/278-A3-ENV-Example.xml' inputRep='178' outputRep='171' nextMap='' inputStructUserName='row3' outputStructUserName='278-A3-ENV-Example' V1='4' name='tHMap_1' incarnation='23344'>
+  <inputMapElem t='200' id='2' V200='8' input='true' structElemExists='true' usedCount='86' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='root'>
     <mapNode t='190' idref='1'/>
-    <child t='200' id='2398' V200='8' input='true' structElemExists='true' usedCount='50' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='row'>
+    <child t='200' id='2398' V200='8' input='true' structElemExists='true' usedCount='71' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='row'>
       <mapNode t='190' idref='1'/>
       <child t='200' id='2399' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='record_type'>
         <mapNode t='190' idref='1'/>
       </child>
-      <child t='200' id='2400' V200='8' input='true' structElemExists='true' usedCount='12' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Auth_id'>
+      <child t='200' id='2400' V200='8' input='true' structElemExists='true' usedCount='16' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Auth_id'>
         <mapNode t='190' idref='1'/>
       </child>
-      <child t='200' id='2401' V200='8' input='true' structElemExists='true' usedCount='10' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='External_Auth_ID'>
+      <child t='200' id='2401' V200='8' input='true' structElemExists='true' usedCount='14' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='External_Auth_ID'>
         <mapNode t='190' idref='1'/>
       </child>
       <child t='200' id='2402' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Member_Identifier'>
         <mapNode t='190' idref='1'/>
       </child>
-      <child t='200' id='2403' V200='8' input='true' structElemExists='true' usedCount='5' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Insurance_Company_code'>
+      <child t='200' id='2403' V200='8' input='true' structElemExists='true' usedCount='7' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Insurance_Company_code'>
         <mapNode t='190' idref='1'/>
       </child>
       <child t='200' id='2404' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Parent_Company_code'>
@@ -58,7 +58,7 @@
       <child t='200' id='2416' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Relationship'>
         <mapNode t='190' idref='1'/>
       </child>
-      <child t='200' id='2417' V200='8' input='true' structElemExists='true' usedCount='5' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Auth_Type_code'>
+      <child t='200' id='2417' V200='8' input='true' structElemExists='true' usedCount='7' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Auth_Type_code'>
         <mapNode t='190' idref='1'/>
       </child>
       <child t='200' id='2418' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Auth_Status'>
@@ -79,7 +79,7 @@
       <child t='200' id='2423' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Request_Date'>
         <mapNode t='190' idref='1'/>
       </child>
-      <child t='200' id='2424' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Admit_Date'>
+      <child t='200' id='2424' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Admit_Date'>
         <mapNode t='190' idref='1'/>
       </child>
       <child t='200' id='2425' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Expected_Admit_Date'>
@@ -100,7 +100,7 @@
       <child t='200' id='2430' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Source'>
         <mapNode t='190' idref='1'/>
       </child>
-      <child t='200' id='2431' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Auth_Decision'>
+      <child t='200' id='2431' V200='8' input='true' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Auth_Decision'>
         <mapNode t='190' idref='1'/>
       </child>
       <child t='200' id='2432' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Auth_Decision_Date'>
@@ -109,7 +109,7 @@
       <child t='200' id='2433' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Provider1_Role'>
         <mapNode t='190' idref='1'/>
       </child>
-      <child t='200' id='2434' V200='8' input='true' structElemExists='true' usedCount='5' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Provider1_ID'>
+      <child t='200' id='2434' V200='8' input='true' structElemExists='true' usedCount='7' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Provider1_ID'>
         <mapNode t='190' idref='1'/>
       </child>
       <child t='200' id='2435' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Provider1_Address1'>
@@ -139,7 +139,7 @@
       <child t='200' id='2443' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Provider3_Role'>
         <mapNode t='190' idref='1'/>
       </child>
-      <child t='200' id='2444' V200='8' input='true' structElemExists='true' usedCount='5' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Provider3_ID'>
+      <child t='200' id='2444' V200='8' input='true' structElemExists='true' usedCount='7' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Provider3_ID'>
         <mapNode t='190' idref='1'/>
       </child>
       <child t='200' id='2445' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Provider3_Address1'>
@@ -330,27 +330,27 @@
       </child>
     </child>
   </inputMapElem>
-  <outputMapElem t='200' id='3' V200='8' structElemExists='true' usedCount='303' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='31' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='X12_5010_HIPAA:Structures/Transactions/278-A3-ENV.xml' V281='13' modifiedFromParent_loop='true' V1='4' name='Interchange'>
+  <outputMapElem t='200' id='3' V200='8' structElemExists='true' usedCount='387' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='31' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='X12_5010_HIPAA:Structures/Transactions/278-A3-ENV.xml' V281='13' modifiedFromParent_loop='true' V1='4' name='Interchange'>
     <mapNode t='190' idref='1'/>
     <loop>SimpleLoop([autoAdded="true"],in$/root,{Filter},{Sort Keys},{Contexts})</loop>
-    <child t='200' id='4' V200='8' structElemExists='true' usedCount='290' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='Loop-ISA'>
+    <child t='200' id='4' V200='8' structElemExists='true' usedCount='372' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='Loop-ISA'>
       <mapNode t='190' idref='1'/>
       <loop>FixedLoop([count="1"],{Number of Times})</loop>
-      <child t='200' id='5' V200='8' structElemExists='true' usedCount='131' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' ediElemType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ISA' description='Interchange Control Header'>
+      <child t='200' id='5' V200='8' structElemExists='true' usedCount='157' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' ediElemType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ISA' description='Interchange Control Header'>
         <mapNode t='190' idref='1'/>
-        <child t='200' id='6' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' ediElemType='5' ediElemRef='I01' repHandlerStruct='' visible='true' sequenceId='01' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ISA01' description='Authorization Information Qualifier'>
+        <child t='200' id='6' V200='8' structElemExists='true' usedCount='13' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' ediElemType='5' ediElemRef='I01' repHandlerStruct='' visible='true' sequenceId='01' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ISA01' description='Authorization Information Qualifier'>
           <mapNode t='190' idref='1'/>
           <value>Constant([value="00",dataType="2"],)</value>
         </child>
-        <child t='200' id='7' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='10' maxSize='10' dataType='2' ediElemType='5' ediElemRef='I02' repHandlerStruct='' visible='true' sequenceId='02' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ISA02' description='Authorization Information'>
+        <child t='200' id='7' V200='8' structElemExists='true' usedCount='13' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='10' maxSize='10' dataType='2' ediElemType='5' ediElemRef='I02' repHandlerStruct='' visible='true' sequenceId='02' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ISA02' description='Authorization Information'>
           <mapNode t='190' idref='1'/>
           <value>Constant([value="          ",dataType="2"],)</value>
         </child>
-        <child t='200' id='8' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' ediElemType='5' ediElemRef='I03' repHandlerStruct='' visible='true' sequenceId='03' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ISA03' description='Security Information Qualifier'>
+        <child t='200' id='8' V200='8' structElemExists='true' usedCount='13' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' ediElemType='5' ediElemRef='I03' repHandlerStruct='' visible='true' sequenceId='03' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ISA03' description='Security Information Qualifier'>
           <mapNode t='190' idref='1'/>
           <value>Constant([value="00",dataType="2"],)</value>
         </child>
-        <child t='200' id='9' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='10' maxSize='10' dataType='2' ediElemType='5' ediElemRef='I04' repHandlerStruct='' visible='true' sequenceId='04' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ISA04' description='Security Information'>
+        <child t='200' id='9' V200='8' structElemExists='true' usedCount='13' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='10' maxSize='10' dataType='2' ediElemType='5' ediElemRef='I04' repHandlerStruct='' visible='true' sequenceId='04' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ISA04' description='Security Information'>
           <mapNode t='190' idref='1'/>
           <value>Constant([value="          ",dataType="2"],)</value>
         </child>
@@ -360,50 +360,50 @@
         <child t='200' id='11' V200='8' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='15' maxSize='15' dataType='2' ediElemType='5' ediElemRef='I06' repHandlerStruct='' visible='true' sequenceId='06' inheritsFrom='' V281='13' V1='4' name='ISA06' description='Interchange Sender ID'>
           <mapNode t='190' idref='1'/>
         </child>
-        <child t='200' id='12' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' ediElemType='5' ediElemRef='I05' repHandlerStruct='' visible='true' sequenceId='07' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ISA07' description='Interchange ID Qualifier'>
+        <child t='200' id='12' V200='8' structElemExists='true' usedCount='13' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' ediElemType='5' ediElemRef='I05' repHandlerStruct='' visible='true' sequenceId='07' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ISA07' description='Interchange ID Qualifier'>
           <mapNode t='190' idref='1'/>
           <value>Constant([value="ZZ",dataType="2"],)</value>
         </child>
-        <child t='200' id='13' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='15' maxSize='15' dataType='2' ediElemType='5' ediElemRef='I07' repHandlerStruct='' visible='true' sequenceId='08' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ISA08' description='Interchange Receiver ID'>
+        <child t='200' id='13' V200='8' structElemExists='true' usedCount='13' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='15' maxSize='15' dataType='2' ediElemType='5' ediElemRef='I07' repHandlerStruct='' visible='true' sequenceId='08' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ISA08' description='Interchange Receiver ID'>
           <mapNode t='190' idref='1'/>
           <value>Constant([value="TCS HEALTHCARE",dataType="2"],)</value>
         </child>
-        <child t='200' id='14' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='6' maxSize='6' dataType='31' dataFormat='302' ediElemType='5' ediElemRef='I08' repHandlerStruct='' visible='true' sequenceId='09' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ISA09' description='Interchange Date'>
+        <child t='200' id='14' V200='8' structElemExists='true' usedCount='13' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='6' maxSize='6' dataType='31' dataFormat='302' ediElemType='5' ediElemRef='I08' repHandlerStruct='' visible='true' sequenceId='09' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ISA09' description='Interchange Date'>
           <mapNode t='190' idref='1'/>
           <value>GetCurrentDateTime()</value>
         </child>
-        <child t='200' id='15' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='4' maxSize='4' dataType='32' ediElemType='5' ediElemRef='I09' repHandlerStruct='' visible='true' sequenceId='10' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ISA10' description='Interchange Time'>
+        <child t='200' id='15' V200='8' structElemExists='true' usedCount='13' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='4' maxSize='4' dataType='32' ediElemType='5' ediElemRef='I09' repHandlerStruct='' visible='true' sequenceId='10' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ISA10' description='Interchange Time'>
           <mapNode t='190' idref='1'/>
           <value>GetCurrentDateTime()</value>
         </child>
-        <child t='200' id='16' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' ediElemType='5' ediElemRef='I65' repHandlerStruct='' visible='true' sequenceId='11' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ISA11' description='Repetition Separator'>
+        <child t='200' id='16' V200='8' structElemExists='true' usedCount='13' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' ediElemType='5' ediElemRef='I65' repHandlerStruct='' visible='true' sequenceId='11' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ISA11' description='Repetition Separator'>
           <mapNode t='190' idref='1'/>
           <value>Constant([value="^",dataType="2"],)</value>
         </child>
-        <child t='200' id='17' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='5' maxSize='5' dataType='2' ediElemType='5' ediElemRef='I11' repHandlerStruct='' visible='true' sequenceId='12' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ISA12' description='Interchange Control Version Number'>
+        <child t='200' id='17' V200='8' structElemExists='true' usedCount='13' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='5' maxSize='5' dataType='2' ediElemType='5' ediElemRef='I11' repHandlerStruct='' visible='true' sequenceId='12' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ISA12' description='Interchange Control Version Number'>
           <mapNode t='190' idref='1'/>
           <value>Constant([value="00501",dataType="2"],)</value>
         </child>
         <child t='200' id='18' V200='8' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='9' maxSize='9' dataType='12' ediElemType='5' ediElemRef='I12' repHandlerStruct='' visible='true' sequenceId='13' inheritsFrom='' V281='13' V1='4' name='ISA13' description='Interchange Control Number'>
           <mapNode t='190' idref='1'/>
         </child>
-        <child t='200' id='19' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' ediElemType='5' ediElemRef='I13' repHandlerStruct='' visible='true' sequenceId='14' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ISA14' description='Acknowledgment Requested'>
+        <child t='200' id='19' V200='8' structElemExists='true' usedCount='13' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' ediElemType='5' ediElemRef='I13' repHandlerStruct='' visible='true' sequenceId='14' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ISA14' description='Acknowledgment Requested'>
           <mapNode t='190' idref='1'/>
           <value>Constant([value="0",dataType="2"],)</value>
         </child>
-        <child t='200' id='20' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' ediElemType='5' ediElemRef='I14' repHandlerStruct='' visible='true' sequenceId='15' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ISA15' description='Usage Indicator'>
+        <child t='200' id='20' V200='8' structElemExists='true' usedCount='13' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' ediElemType='5' ediElemRef='I14' repHandlerStruct='' visible='true' sequenceId='15' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ISA15' description='Usage Indicator'>
           <mapNode t='190' idref='1'/>
           <value>Constant([value="T",dataType="2"],)</value>
         </child>
-        <child t='200' id='21' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' ediElemType='5' ediElemRef='I15' repHandlerStruct='' visible='true' sequenceId='16' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ISA16' description='Component Element Separator'>
+        <child t='200' id='21' V200='8' structElemExists='true' usedCount='13' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' ediElemType='5' ediElemRef='I15' repHandlerStruct='' visible='true' sequenceId='16' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ISA16' description='Component Element Separator'>
           <mapNode t='190' idref='1'/>
           <value>Constant([value=":",dataType="2"],)</value>
         </child>
       </child>
-      <child t='200' id='22' V200='8' structElemExists='true' usedCount='150' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='Loop-GS'>
+      <child t='200' id='22' V200='8' structElemExists='true' usedCount='204' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='Loop-GS'>
         <mapNode t='190' idref='1'/>
         <loop>FixedLoop([count="1"],{Number of Times})</loop>
-        <child t='200' id='23' V200='8' structElemExists='true' usedCount='33' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' ediElemType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='GS' description='Functional Group Header'>
+        <child t='200' id='23' V200='8' structElemExists='true' usedCount='41' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' ediElemType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='GS' description='Functional Group Header'>
           <mapNode t='190' idref='1'/>
           <child t='200' id='24' V200='8' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' ediElemType='5' ediElemRef='479' repHandlerStruct='' visible='true' sequenceId='01' inheritsFrom='' V281='13' V1='4' name='GS01' description='Functional Identifier Code'>
             <mapNode t='190' idref='1'/>
@@ -411,15 +411,15 @@
           <child t='200' id='25' V200='8' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='15' dataType='2' ediElemType='5' ediElemRef='142' repHandlerStruct='' visible='true' sequenceId='02' inheritsFrom='' V281='13' V1='4' name='GS02' description='Application Sender&apos;s Code'>
             <mapNode t='190' idref='1'/>
           </child>
-          <child t='200' id='26' V200='8' structElemExists='true' usedCount='9' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='15' dataType='2' ediElemType='5' ediElemRef='124' repHandlerStruct='' visible='true' sequenceId='03' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='GS03' description='Application Receiver&apos;s Code'>
+          <child t='200' id='26' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='15' dataType='2' ediElemType='5' ediElemRef='124' repHandlerStruct='' visible='true' sequenceId='03' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='GS03' description='Application Receiver&apos;s Code'>
             <mapNode t='190' idref='1'/>
             <value>Constant([value="TCS HEALTHCARE",dataType="2"],)</value>
           </child>
-          <child t='200' id='27' V200='8' structElemExists='true' usedCount='9' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='8' maxSize='8' dataType='31' ediElemType='5' ediElemRef='373' repHandlerStruct='' visible='true' sequenceId='04' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='GS04' description='Date'>
+          <child t='200' id='27' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='8' maxSize='8' dataType='31' ediElemType='5' ediElemRef='373' repHandlerStruct='' visible='true' sequenceId='04' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='GS04' description='Date'>
             <mapNode t='190' idref='1'/>
             <value>GetCurrentDateTime()</value>
           </child>
-          <child t='200' id='28' V200='8' structElemExists='true' usedCount='9' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='4' maxSize='8' dataType='32' ediElemType='5' ediElemRef='337' repHandlerStruct='' visible='true' sequenceId='05' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='GS05' description='Time'>
+          <child t='200' id='28' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='4' maxSize='8' dataType='32' ediElemType='5' ediElemRef='337' repHandlerStruct='' visible='true' sequenceId='05' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='GS05' description='Time'>
             <mapNode t='190' idref='1'/>
             <value>GetCurrentDateTime()</value>
           </child>
@@ -429,17 +429,17 @@
           <child t='200' id='30' V200='8' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='2' dataType='2' ediElemType='5' ediElemRef='455' repHandlerStruct='' visible='true' sequenceId='07' inheritsFrom='' V281='13' V1='4' name='GS07' description='Responsible Agency Code'>
             <mapNode t='190' idref='1'/>
           </child>
-          <child t='200' id='31' V200='8' structElemExists='true' valueSetIndex='1' usedCount='9' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='12' dataType='2' ediElemType='5' ediElemRef='480' repHandlerStruct='' visible='true' sequenceId='08' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='GS08' description='Version / Release / Industry Identifier Code'>
+          <child t='200' id='31' V200='8' structElemExists='true' valueSetIndex='1' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='12' dataType='2' ediElemType='5' ediElemRef='480' repHandlerStruct='' visible='true' sequenceId='08' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='GS08' description='Version / Release / Industry Identifier Code'>
             <mapNode t='190' idref='1'/>
             <value>Constant([value="005010X217",dataType="2"],)</value>
           </child>
         </child>
-        <child t='200' id='32' V200='8' structElemExists='true' usedCount='110' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='Loop-ST'>
+        <child t='200' id='32' V200='8' structElemExists='true' usedCount='154' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='Loop-ST'>
           <mapNode t='190' idref='1'/>
           <loop>SimpleLoop(in$/root/row,{Filter},{Sort Keys},{Contexts})</loop>
-          <child t='200' id='33' V200='8' structElemExists='true' usedCount='102' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='31' groupType='1' ediElemType='1' ediElemRef='HI' repHandlerStruct='' inheritsFrom='X12_5010_HIPAA:Structures/Transactions/278-A3.xml' V281='13' V1='4' name='Transaction-278-A3' description='Health Care Services Review Information'>
+          <child t='200' id='33' V200='8' structElemExists='true' usedCount='144' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='31' groupType='1' ediElemType='1' ediElemRef='HI' repHandlerStruct='' inheritsFrom='X12_5010_HIPAA:Structures/Transactions/278-A3.xml' V281='13' V1='4' name='Transaction-278-A3' description='Health Care Services Review Information'>
             <mapNode t='190' idref='1'/>
-            <child t='200' id='34' V200='8' structElemExists='true' usedCount='17' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='24' groupType='1' ediElemType='2' ediElemRef='1-ST' repHandlerStruct='' visible='true' sequenceId='0100' inheritsFrom='X12_5010_HIPAA:Structures/Segments/ST.xml' V281='13' modifiedFromParent_validate='true' V1='4' name='ST' description='Transaction Set Header'>
+            <child t='200' id='34' V200='8' structElemExists='true' usedCount='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='24' groupType='1' ediElemType='2' ediElemRef='1-ST' repHandlerStruct='' visible='true' sequenceId='0100' inheritsFrom='X12_5010_HIPAA:Structures/Segments/ST.xml' V281='13' modifiedFromParent_validate='true' V1='4' name='ST' description='Transaction Set Header'>
               <mapNode t='190' idref='1'/>
               <validate>Constant([value="278",dataType="2"],)</validate>
               <child t='200' id='35' V200='8' structElemExists='true' valueSetIndex='2' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='3' maxSize='3' inheritsFromCopyRule='24' dataType='2' ediElemType='5' ediElemRef='143' repHandlerStruct='' visible='true' sequenceId='01' inheritsFrom='X12_5010_HIPAA:Structures/Elements/143.xml' V281='13' V1='4' name='ST01' description='Transaction Set Identifier Code'>
@@ -448,31 +448,31 @@
               <child t='200' id='36' V200='8' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='4' maxSize='9' dataType='2' ediElemType='5' ediElemRef='329' repHandlerStruct='' visible='true' sequenceId='02' inheritsFrom='' V281='13' V1='4' name='ST02' description='Transaction Set Control Number'>
                 <mapNode t='190' idref='1'/>
               </child>
-              <child t='200' id='37' V200='8' structElemExists='true' usedCount='9' V283='2' occurMaxTimes='1' minSize='1' maxSize='35' dataType='2' ediElemType='5' ediElemRef='1705' repHandlerStruct='' visible='true' sequenceId='03' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ST03' description='Implementation Guide Version Name'>
+              <child t='200' id='37' V200='8' structElemExists='true' usedCount='11' V283='2' occurMaxTimes='1' minSize='1' maxSize='35' dataType='2' ediElemType='5' ediElemRef='1705' repHandlerStruct='' visible='true' sequenceId='03' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ST03' description='Implementation Guide Version Name'>
                 <mapNode t='190' idref='1'/>
                 <value>Constant([value="005010X217",dataType="2"],)</value>
               </child>
             </child>
-            <child t='200' id='38' V200='8' structElemExists='true' usedCount='43' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='24' groupType='1' ediElemType='2' ediElemRef='1-BHT' repHandlerStruct='' visible='true' sequenceId='0200' inheritsFrom='X12_5010_HIPAA:Structures/Segments/BHT.xml' V281='13' V1='4' name='BHT' description='Beginning of Hierarchical Transaction'>
+            <child t='200' id='38' V200='8' structElemExists='true' usedCount='55' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='24' groupType='1' ediElemType='2' ediElemRef='1-BHT' repHandlerStruct='' visible='true' sequenceId='0200' inheritsFrom='X12_5010_HIPAA:Structures/Segments/BHT.xml' V281='13' V1='4' name='BHT' description='Beginning of Hierarchical Transaction'>
               <mapNode t='190' idref='1'/>
-              <child t='200' id='39' V200='8' structElemExists='true' valueSetIndex='3' usedCount='9' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='4' maxSize='4' inheritsFromCopyRule='24' dataType='2' ediElemType='5' ediElemRef='1005' repHandlerStruct='' visible='true' sequenceId='01' inheritsFrom='X12_5010_HIPAA:Structures/Elements/1005.xml' V281='13' modifiedFromParent_value='true' V1='4' name='BHT01' description='Hierarchical Structure Code'>
+              <child t='200' id='39' V200='8' structElemExists='true' valueSetIndex='3' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='4' maxSize='4' inheritsFromCopyRule='24' dataType='2' ediElemType='5' ediElemRef='1005' repHandlerStruct='' visible='true' sequenceId='01' inheritsFrom='X12_5010_HIPAA:Structures/Elements/1005.xml' V281='13' modifiedFromParent_value='true' V1='4' name='BHT01' description='Hierarchical Structure Code'>
                 <mapNode t='190' idref='1'/>
                 <value>Constant([value="0007",dataType="2"],)</value>
               </child>
-              <child t='200' id='40' V200='8' structElemExists='true' valueSetIndex='4' usedCount='9' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' inheritsFromCopyRule='24' dataType='2' ediElemType='5' ediElemRef='353' repHandlerStruct='' visible='true' sequenceId='02' inheritsFrom='X12_5010_HIPAA:Structures/Elements/353.xml' V281='13' modifiedFromParent_value='true' V1='4' name='BHT02' description='Transaction Set Purpose Code'>
+              <child t='200' id='40' V200='8' structElemExists='true' valueSetIndex='4' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' inheritsFromCopyRule='24' dataType='2' ediElemType='5' ediElemRef='353' repHandlerStruct='' visible='true' sequenceId='02' inheritsFrom='X12_5010_HIPAA:Structures/Elements/353.xml' V281='13' modifiedFromParent_value='true' V1='4' name='BHT02' description='Transaction Set Purpose Code'>
                 <mapNode t='190' idref='1'/>
                 <value>Constant([value="11",dataType="2"],)</value>
               </child>
-              <child t='200' id='41' V200='8' structElemExists='true' usedCount='15' V283='2' occurMaxTimes='1' minSize='1' maxSize='50' dataType='2' ediElemType='5' ediElemRef='127' repHandlerStruct='' visible='true' sequenceId='03' inheritsFrom='' V281='13' modifiedFromParent_value='true' modifiedFromParent_util='true' V1='4' name='BHT03' description='Submitter Transaction Identifier'>
+              <child t='200' id='41' V200='8' structElemExists='true' usedCount='19' V283='2' occurMaxTimes='1' minSize='1' maxSize='50' dataType='2' ediElemType='5' ediElemRef='127' repHandlerStruct='' visible='true' sequenceId='03' inheritsFrom='' V281='13' modifiedFromParent_value='true' modifiedFromParent_util='true' V1='4' name='BHT03' description='Submitter Transaction Identifier'>
                 <mapNode t='190' idref='1'/>
                 <value>IfThenElse(HasValue(in$/root/row/External_Auth_ID),in$/root/row/External_Auth_ID,in$/root/row/Auth_id)</value>
                 <util>SetVariable([variableName="authid"],IfThenElse(HasValue(in$/root/row/External_Auth_ID),in$/root/row/External_Auth_ID,in$/root/row/Auth_id))</util>
               </child>
-              <child t='200' id='42' V200='8' structElemExists='true' usedCount='7' V283='2' occurMaxTimes='1' minSize='8' maxSize='8' dataType='31' ediElemType='5' ediElemRef='373' repHandlerStruct='' visible='true' sequenceId='04' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='BHT04' description='Transaction Set Creation Date'>
+              <child t='200' id='42' V200='8' structElemExists='true' usedCount='9' V283='2' occurMaxTimes='1' minSize='8' maxSize='8' dataType='31' ediElemType='5' ediElemRef='373' repHandlerStruct='' visible='true' sequenceId='04' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='BHT04' description='Transaction Set Creation Date'>
                 <mapNode t='190' idref='1'/>
                 <value>GetCurrentDateTime()</value>
               </child>
-              <child t='200' id='43' V200='8' structElemExists='true' usedCount='7' V283='2' occurMaxTimes='1' minSize='4' maxSize='8' dataType='32' dataFormat='402' ediElemType='5' ediElemRef='337' repHandlerStruct='' visible='true' sequenceId='05' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='BHT05' description='Transaction Set Creation Time'>
+              <child t='200' id='43' V200='8' structElemExists='true' usedCount='9' V283='2' occurMaxTimes='1' minSize='4' maxSize='8' dataType='32' dataFormat='402' ediElemType='5' ediElemRef='337' repHandlerStruct='' visible='true' sequenceId='05' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='BHT05' description='Transaction Set Creation Time'>
                 <mapNode t='190' idref='1'/>
                 <value>GetCurrentDateTime()</value>
               </child>
@@ -480,7 +480,7 @@
                 <mapNode t='190' idref='1'/>
               </child>
             </child>
-            <child t='200' id='45' V200='8' structElemExists='true' usedCount='44' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' ediElemType='4' ediElemRef='2000A' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-HL' description='2000A-Utilization Management Organization (UMO) Detail'>
+            <child t='200' id='45' V200='8' structElemExists='true' usedCount='70' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' ediElemType='4' ediElemRef='2000A' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-HL' description='2000A-Utilization Management Organization (UMO) Detail'>
               <mapNode t='190' idref='1'/>
               <child t='200' id='46' V200='8' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='24' groupType='1' ediElemType='2' ediElemRef='2-HL' repHandlerStruct='' visible='true' sequenceId='0100' inheritsFrom='X12_5010_HIPAA:Structures/Segments/HL.xml' V281='13' V1='4' name='HL' description='Utilization Management Organization (UMO) Level'>
                 <mapNode t='190' idref='1'/>
@@ -512,9 +512,9 @@
                   <mapNode t='190' idref='1'/>
                 </child>
               </child>
-              <child t='200' id='56' V200='8' structElemExists='true' usedCount='7' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' ediElemType='4' ediElemRef='2-2010A' repHandlerStruct='' visible='true' sequenceId='1700' inheritsFrom='' V281='13' V1='4' name='Loop-NM1' description='2010A'>
+              <child t='200' id='56' V200='8' structElemExists='true' usedCount='9' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' ediElemType='4' ediElemRef='2-2010A' repHandlerStruct='' visible='true' sequenceId='1700' inheritsFrom='' V281='13' V1='4' name='Loop-NM1' description='2010A'>
                 <mapNode t='190' idref='1'/>
-                <child t='200' id='57' V200='8' structElemExists='true' usedCount='7' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='24' groupType='1' ediElemType='2' ediElemRef='2-NM1' repHandlerStruct='' visible='true' sequenceId='1700' inheritsFrom='X12_5010_HIPAA:Structures/Segments/NM1.xml' V281='13' V1='4' name='NM1' description='Utilization Management Organization (UMO) Name'>
+                <child t='200' id='57' V200='8' structElemExists='true' usedCount='9' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='24' groupType='1' ediElemType='2' ediElemRef='2-NM1' repHandlerStruct='' visible='true' sequenceId='1700' inheritsFrom='X12_5010_HIPAA:Structures/Segments/NM1.xml' V281='13' V1='4' name='NM1' description='Utilization Management Organization (UMO) Name'>
                   <mapNode t='190' idref='1'/>
                   <ediSyntaxRules>P0809;C1110;C1203</ediSyntaxRules>
                   <child t='200' id='58' V200='8' structElemExists='true' valueSetIndex='12' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='3' inheritsFromCopyRule='24' dataType='2' ediElemType='5' ediElemRef='98' repHandlerStruct='' visible='true' sequenceId='01' inheritsFrom='X12_5010_HIPAA:Structures/Elements/98.xml' V281='13' V1='4' name='NM101' description='Entity Identifier Code'>
@@ -541,7 +541,7 @@
                   <child t='200' id='65' V200='8' structElemExists='true' valueSetIndex='14' usedCount='1' V283='2' occurMaxTimes='1' minSize='1' maxSize='2' inheritsFromCopyRule='24' dataType='2' ediElemType='5' ediElemRef='66' repHandlerStruct='' visible='true' sequenceId='08' inheritsFrom='X12_5010_HIPAA:Structures/Elements/66.xml' V281='13' V1='4' name='NM108' description='Identification Code Qualifier'>
                     <mapNode t='190' idref='1'/>
                   </child>
-                  <child t='200' id='66' V200='8' structElemExists='true' usedCount='7' V283='2' occurMaxTimes='1' minSize='2' maxSize='80' dataType='2' ediElemType='5' ediElemRef='67' repHandlerStruct='' visible='true' sequenceId='09' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='NM109' description='Utilization Management Organization (UMO) Identifier'>
+                  <child t='200' id='66' V200='8' structElemExists='true' usedCount='9' V283='2' occurMaxTimes='1' minSize='2' maxSize='80' dataType='2' ediElemType='5' ediElemRef='67' repHandlerStruct='' visible='true' sequenceId='09' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='NM109' description='Utilization Management Organization (UMO) Identifier'>
                     <mapNode t='190' idref='1'/>
                     <value>in$/root/row/Insurance_Company_code</value>
                   </child>
@@ -602,7 +602,7 @@
                   </child>
                 </child>
               </child>
-              <child t='200' id='85' V200='8' structElemExists='true' usedCount='38' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' ediElemType='4' ediElemRef='2000B' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-HL' description='2000B-Requester Detail'>
+              <child t='200' id='85' V200='8' structElemExists='true' usedCount='62' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' ediElemType='4' ediElemRef='2000B' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-HL' description='2000B-Requester Detail'>
                 <mapNode t='190' idref='1'/>
                 <child t='200' id='86' V200='8' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='24' groupType='1' ediElemType='2' ediElemRef='3-HL' repHandlerStruct='' visible='true' sequenceId='0100' inheritsFrom='X12_5010_HIPAA:Structures/Segments/HL.xml' V281='13' V1='4' name='HL' description='Requester Level'>
                   <mapNode t='190' idref='1'/>
@@ -619,10 +619,10 @@
                     <mapNode t='190' idref='1'/>
                   </child>
                 </child>
-                <child t='200' id='91' V200='8' structElemExists='true' usedCount='13' V283='2' occurMaxTimes='2' minSize='-1' maxSize='-1' groupType='1' ediElemType='4' ediElemRef='3-2010B' repHandlerStruct='' visible='true' sequenceId='1700' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='Loop-NM1' description='2010B'>
+                <child t='200' id='91' V200='8' structElemExists='true' usedCount='17' V283='2' occurMaxTimes='2' minSize='-1' maxSize='-1' groupType='1' ediElemType='4' ediElemRef='3-2010B' repHandlerStruct='' visible='true' sequenceId='1700' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='Loop-NM1' description='2010B'>
                   <mapNode t='190' idref='1'/>
                   <loop>FixedLoop([count="1"],{Number of Times})</loop>
-                  <child t='200' id='92' V200='8' structElemExists='true' usedCount='7' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='24' groupType='1' ediElemType='2' ediElemRef='3-NM1' repHandlerStruct='' visible='true' sequenceId='1700' inheritsFrom='X12_5010_HIPAA:Structures/Segments/NM1.xml' V281='13' V1='4' name='NM1' description='Requester Name'>
+                  <child t='200' id='92' V200='8' structElemExists='true' usedCount='9' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='24' groupType='1' ediElemType='2' ediElemRef='3-NM1' repHandlerStruct='' visible='true' sequenceId='1700' inheritsFrom='X12_5010_HIPAA:Structures/Segments/NM1.xml' V281='13' V1='4' name='NM1' description='Requester Name'>
                     <mapNode t='190' idref='1'/>
                     <ediSyntaxRules>P0809;C1110;C1203</ediSyntaxRules>
                     <child t='200' id='93' V200='8' structElemExists='true' valueSetIndex='24' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='3' inheritsFromCopyRule='24' dataType='2' ediElemType='5' ediElemRef='98' repHandlerStruct='' visible='true' sequenceId='01' inheritsFrom='X12_5010_HIPAA:Structures/Elements/98.xml' V281='13' V1='4' name='NM101' description='Entity Identifier Code'>
@@ -649,7 +649,7 @@
                     <child t='200' id='100' V200='8' structElemExists='true' valueSetIndex='25' usedCount='1' V283='2' occurMaxTimes='1' minSize='1' maxSize='2' inheritsFromCopyRule='24' dataType='2' ediElemType='5' ediElemRef='66' repHandlerStruct='' visible='true' sequenceId='08' inheritsFrom='X12_5010_HIPAA:Structures/Elements/66.xml' V281='13' V1='4' name='NM108' description='Identification Code Qualifier'>
                       <mapNode t='190' idref='1'/>
                     </child>
-                    <child t='200' id='101' V200='8' structElemExists='true' usedCount='7' V283='2' occurMaxTimes='1' minSize='2' maxSize='80' dataType='2' ediElemType='5' ediElemRef='67' repHandlerStruct='' visible='true' sequenceId='09' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='NM109' description='Requester Identifier'>
+                    <child t='200' id='101' V200='8' structElemExists='true' usedCount='9' V283='2' occurMaxTimes='1' minSize='2' maxSize='80' dataType='2' ediElemType='5' ediElemRef='67' repHandlerStruct='' visible='true' sequenceId='09' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='NM109' description='Requester Identifier'>
                       <mapNode t='190' idref='1'/>
                       <value>IfThenElse(Equal(in$/root/row/Auth_Type_code,Constant([value="OP",dataType="2"],)),in$/root/row/Provider1_ID,IfThenElse(Equal(in$/root/row/Auth_Type_code,Constant([value="OP-BH",dataType="2"],)),in$/root/row/Provider1_ID,in$/root/row/Provider3_ID))</value>
                     </child>
@@ -745,7 +745,7 @@
                     </child>
                   </child>
                 </child>
-                <child t='200' id='131' V200='8' structElemExists='true' usedCount='26' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' ediElemType='4' ediElemRef='2000C' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='Loop-HL' description='2000C-Subscriber Detail'>
+                <child t='200' id='131' V200='8' structElemExists='true' usedCount='46' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' ediElemType='4' ediElemRef='2000C' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='Loop-HL' description='2000C-Subscriber Detail'>
                   <mapNode t='190' idref='1'/>
                   <loop>FixedLoop([count="1"],{Number of Times})</loop>
                   <child t='200' id='132' V200='8' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='24' groupType='1' ediElemType='2' ediElemRef='4-HL' repHandlerStruct='' visible='true' sequenceId='0100' inheritsFrom='X12_5010_HIPAA:Structures/Segments/HL.xml' V281='13' V1='4' name='HL' description='Subscriber Level'>
@@ -763,9 +763,9 @@
                       <mapNode t='190' idref='1'/>
                     </child>
                   </child>
-                  <child t='200' id='137' V200='8' structElemExists='true' usedCount='5' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' ediElemType='4' ediElemRef='4-2010C' repHandlerStruct='' visible='true' sequenceId='1700' inheritsFrom='' V281='13' V1='4' name='Loop-NM1' description='2010C'>
+                  <child t='200' id='137' V200='8' structElemExists='true' usedCount='7' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' ediElemType='4' ediElemRef='4-2010C' repHandlerStruct='' visible='true' sequenceId='1700' inheritsFrom='' V281='13' V1='4' name='Loop-NM1' description='2010C'>
                     <mapNode t='190' idref='1'/>
-                    <child t='200' id='138' V200='8' structElemExists='true' usedCount='5' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='24' groupType='1' ediElemType='2' ediElemRef='4-NM1' repHandlerStruct='' visible='true' sequenceId='1700' inheritsFrom='X12_5010_HIPAA:Structures/Segments/NM1.xml' V281='13' V1='4' name='NM1' description='Subscriber Name'>
+                    <child t='200' id='138' V200='8' structElemExists='true' usedCount='7' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='24' groupType='1' ediElemType='2' ediElemRef='4-NM1' repHandlerStruct='' visible='true' sequenceId='1700' inheritsFrom='X12_5010_HIPAA:Structures/Segments/NM1.xml' V281='13' V1='4' name='NM1' description='Subscriber Name'>
                       <mapNode t='190' idref='1'/>
                       <ediSyntaxRules>P0809;C1110;C1203</ediSyntaxRules>
                       <child t='200' id='139' V200='8' structElemExists='true' valueSetIndex='36' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='3' inheritsFromCopyRule='24' dataType='2' ediElemType='5' ediElemRef='98' repHandlerStruct='' visible='true' sequenceId='01' inheritsFrom='X12_5010_HIPAA:Structures/Elements/98.xml' V281='13' V1='4' name='NM101' description='Entity Identifier Code'>
@@ -789,7 +789,7 @@
                       <child t='200' id='145' V200='8' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='1' maxSize='10' dataType='2' ediElemType='5' ediElemRef='1039' repHandlerStruct='' visible='true' sequenceId='07' inheritsFrom='' V281='13' V1='4' name='NM107' description='Subscriber Name Suffix'>
                         <mapNode t='190' idref='1'/>
                       </child>
-                      <child t='200' id='146' V200='8' structElemExists='true' valueSetIndex='38' usedCount='5' V283='2' occurMaxTimes='1' minSize='1' maxSize='2' inheritsFromCopyRule='24' dataType='2' ediElemType='5' ediElemRef='66' repHandlerStruct='' visible='true' sequenceId='08' inheritsFrom='X12_5010_HIPAA:Structures/Elements/66.xml' V281='13' modifiedFromParent_value='true' V1='4' name='NM108' description='Identification Code Qualifier'>
+                      <child t='200' id='146' V200='8' structElemExists='true' valueSetIndex='38' usedCount='7' V283='2' occurMaxTimes='1' minSize='1' maxSize='2' inheritsFromCopyRule='24' dataType='2' ediElemType='5' ediElemRef='66' repHandlerStruct='' visible='true' sequenceId='08' inheritsFrom='X12_5010_HIPAA:Structures/Elements/66.xml' V281='13' modifiedFromParent_value='true' V1='4' name='NM108' description='Identification Code Qualifier'>
                         <mapNode t='190' idref='1'/>
                         <value>Constant([value="MI",dataType="2",description="Member Identification Number"],)</value>
                       </child>
@@ -4307,7 +4307,7 @@
                       </child>
                     </child>
                   </child>
-                  <child t='200' id='1292' V200='8' structElemExists='true' usedCount='18' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' ediElemType='4' ediElemRef='2000E' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='Loop-HL' description='2000E-Patient Event Detail'>
+                  <child t='200' id='1292' V200='8' structElemExists='true' usedCount='34' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' ediElemType='4' ediElemRef='2000E' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='Loop-HL' description='2000E-Patient Event Detail'>
                     <mapNode t='190' idref='1'/>
                     <loop>FixedLoop([count="1"],{Number of Times})</loop>
                     <child t='200' id='1293' V200='8' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='24' groupType='1' ediElemType='2' ediElemRef='6-HL' repHandlerStruct='' visible='true' sequenceId='0100' inheritsFrom='X12_5010_HIPAA:Structures/Segments/HL.xml' V281='13' V1='4' name='HL' description='Patient Event Level'>
@@ -4355,21 +4355,21 @@
                         <mapNode t='190' idref='1'/>
                       </child>
                     </child>
-                    <child t='200' id='1308' V200='8' structElemExists='true' usedCount='10' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='24' groupType='1' ediElemType='2' ediElemRef='6-UM' repHandlerStruct='' visible='true' sequenceId='0400' inheritsFrom='X12_5010_HIPAA:Structures/Segments/UM.xml' V281='13' V1='4' name='UM' description='Health Care Services Review Information'>
+                    <child t='200' id='1308' V200='8' structElemExists='true' usedCount='14' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='24' groupType='1' ediElemType='2' ediElemRef='6-UM' repHandlerStruct='' visible='true' sequenceId='0400' inheritsFrom='X12_5010_HIPAA:Structures/Segments/UM.xml' V281='13' V1='4' name='UM' description='Health Care Services Review Information'>
                       <mapNode t='190' idref='1'/>
                       <child t='200' id='1309' V200='8' structElemExists='true' valueSetIndex='70' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='2' inheritsFromCopyRule='24' dataType='2' ediElemType='5' ediElemRef='1525' repHandlerStruct='' visible='true' sequenceId='01' inheritsFrom='X12_5010_HIPAA:Structures/Elements/1525.xml' V281='13' V1='4' name='UM01' description='Request Category Code'>
                         <mapNode t='190' idref='1'/>
                       </child>
-                      <child t='200' id='1310' V200='8' structElemExists='true' valueSetIndex='71' usedCount='5' V283='2' occurMaxTimes='1' minSize='1' maxSize='1' inheritsFromCopyRule='24' dataType='2' ediElemType='5' ediElemRef='1322' repHandlerStruct='' visible='true' sequenceId='02' inheritsFrom='X12_5010_HIPAA:Structures/Elements/1322.xml' V281='13' modifiedFromParent_value='true' V1='4' name='UM02' description='Certification Type Code'>
+                      <child t='200' id='1310' V200='8' structElemExists='true' valueSetIndex='71' usedCount='7' V283='2' occurMaxTimes='1' minSize='1' maxSize='1' inheritsFromCopyRule='24' dataType='2' ediElemType='5' ediElemRef='1322' repHandlerStruct='' visible='true' sequenceId='02' inheritsFrom='X12_5010_HIPAA:Structures/Elements/1322.xml' V281='13' modifiedFromParent_value='true' V1='4' name='UM02' description='Certification Type Code'>
                         <mapNode t='190' idref='1'/>
                         <value>Constant([value="I",dataType="2",description="Initial"],)</value>
                       </child>
                       <child t='200' id='1311' V200='8' structElemExists='true' valueSetIndex='72' usedCount='1' V283='2' occurMaxTimes='1' minSize='1' maxSize='2' inheritsFromCopyRule='24' dataType='2' ediElemType='5' ediElemRef='1365' repHandlerStruct='' visible='true' sequenceId='03' inheritsFrom='X12_5010_HIPAA:Structures/Elements/1365.xml' V281='13' V1='4' name='UM03' description='Service Type Code'>
                         <mapNode t='190' idref='1'/>
                       </child>
-                      <child t='200' id='1312' V200='8' structElemExists='true' usedCount='6' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='24' groupType='1' ediElemType='3' ediElemRef='C023' repHandlerStruct='' visible='true' sequenceId='04' inheritsFrom='X12_5010_HIPAA:Structures/Composites/C023.xml' V281='13' modifiedFromParent_validate='true' V1='4' name='UM04' description='Health Care Service Location Information'>
+                      <child t='200' id='1312' V200='8' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='24' groupType='1' ediElemType='3' ediElemRef='C023' repHandlerStruct='' visible='true' sequenceId='04' inheritsFrom='X12_5010_HIPAA:Structures/Composites/C023.xml' V281='13' modifiedFromParent_validate='true' V1='4' name='UM04' description='Health Care Service Location Information'>
                         <mapNode t='190' idref='1'/>
-                        <child t='200' id='1313' V200='8' structElemExists='true' usedCount='5' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='2' dataType='2' ediElemType='5' ediElemRef='1331' repHandlerStruct='' visible='true' sequenceId='01' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='C023-01' description='Facility Type Code'>
+                        <child t='200' id='1313' V200='8' structElemExists='true' usedCount='7' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='2' dataType='2' ediElemType='5' ediElemRef='1331' repHandlerStruct='' visible='true' sequenceId='01' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='C023-01' description='Facility Type Code'>
                           <mapNode t='190' idref='1'/>
                           <value>IfThenElse(Equal(in$/root/row/Auth_Type_code,Constant([value="OP",dataType="2"],)),Constant([value="11",dataType="2"],),IfThenElse(Equal(in$/root/row/Auth_Type_code,Constant([value="OP-BH",dataType="2"],)),Constant([value="52",dataType="2"],),IfThenElse(Equal(in$/root/row/Auth_Type_code,Constant([value="IP",dataType="2"],)),Constant([value="21",dataType="2"],),IfThenElse(Equal(in$/root/row/Auth_Type_code,Constant([value="IP-BH",dataType="2"],)),Constant([value="51",dataType="2"],),IfThenElse(Equal(in$/root/row/Auth_Type_code,Constant([value="OBS",dataType="2"],)),Constant([value="21",dataType="2"],),IfThenElse(Equal(in$/root/row/Auth_Type_code,Constant([value="OBS-BH",dataType="2"],)),Constant([value="51",dataType="2"],),Constant([value="",dataType="2"],)))))))</value>
                         </child>
@@ -4604,18 +4604,21 @@
                         </child>
                       </child>
                     </child>
-                    <child t='200' id='1389' V200='8' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='24' groupType='1' ediElemType='2' ediElemRef='6-DTP' repHandlerStruct='' visible='true' sequenceId='0725' inheritsFrom='X12_5010_HIPAA:Structures/Segments/DTP.xml' V281='13' V1='4' name='DTP' description='Admission Date'>
+                    <child t='200' id='1389' V200='8' structElemExists='true' usedCount='7' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='24' groupType='1' ediElemType='2' ediElemRef='6-DTP' repHandlerStruct='' visible='true' sequenceId='0725' inheritsFrom='X12_5010_HIPAA:Structures/Segments/DTP.xml' V281='13' V1='4' name='DTP' description='Admission Date'>
                       <mapNode t='190' idref='1'/>
-                      <child t='200' id='1390' V200='8' structElemExists='true' valueSetIndex='89' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='3' maxSize='3' inheritsFromCopyRule='24' dataType='2' ediElemType='5' ediElemRef='374' repHandlerStruct='' visible='true' sequenceId='01' inheritsFrom='X12_5010_HIPAA:Structures/Elements/374.xml' V281='13' V1='4' name='DTP01' description='Date Time Qualifier'>
+                      <child t='200' id='1390' V200='8' structElemExists='true' valueSetIndex='89' usedCount='3' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='3' maxSize='3' inheritsFromCopyRule='24' dataType='2' ediElemType='5' ediElemRef='374' repHandlerStruct='' visible='true' sequenceId='01' inheritsFrom='X12_5010_HIPAA:Structures/Elements/374.xml' V281='13' modifiedFromParent_value='true' V1='4' name='DTP01' description='Date Time Qualifier'>
                         <mapNode t='190' idref='1'/>
+                        <value>Constant([value="435",dataType="2",description="Admission"],)</value>
                       </child>
-                      <child t='200' id='1391' V200='8' structElemExists='true' valueSetIndex='88' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='3' inheritsFromCopyRule='24' dataType='2' ediElemType='5' ediElemRef='1250' repHandlerStruct='' visible='true' sequenceId='02' inheritsFrom='X12_5010_HIPAA:Structures/Elements/1250.xml' V281='13' V1='4' name='DTP02' description='Date Time Period Format Qualifier'>
+                      <child t='200' id='1391' V200='8' structElemExists='true' valueSetIndex='88' usedCount='3' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='3' inheritsFromCopyRule='24' dataType='2' ediElemType='5' ediElemRef='1250' repHandlerStruct='' visible='true' sequenceId='02' inheritsFrom='X12_5010_HIPAA:Structures/Elements/1250.xml' V281='13' modifiedFromParent_value='true' V1='4' name='DTP02' description='Date Time Period Format Qualifier'>
                         <mapNode t='190' idref='1'/>
+                        <value>Constant([value="D8",dataType="2",description="Date Expressed in Format CCYYMMDD"],)</value>
                       </child>
-                      <child t='200' id='1392' V200='8' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='35' inheritsFromCopyRule='24' groupType='1' ediElemType='5' ediElemRef='1251' repHandlerStruct='' visible='true' sequenceId='03' inheritsFrom='X12_5010_HIPAA:Structures/Elements/1251.xml' V281='13' V1='4' name='DTP03' description='Proposed or Actual Admission Date'>
+                      <child t='200' id='1392' V200='8' structElemExists='true' usedCount='3' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='35' inheritsFromCopyRule='24' groupType='1' ediElemType='5' ediElemRef='1251' repHandlerStruct='' visible='true' sequenceId='03' inheritsFrom='X12_5010_HIPAA:Structures/Elements/1251.xml' V281='13' V1='4' name='DTP03' description='Proposed or Actual Admission Date'>
                         <mapNode t='190' idref='1'/>
-                        <child t='200' id='1393' V200='8' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='30' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Date'>
+                        <child t='200' id='1393' V200='8' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='30' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Date'>
                           <mapNode t='190' idref='1'/>
+                          <value>in$/root/row/Admit_Date</value>
                         </child>
                         <child t='200' id='1394' V200='8' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='30' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='EndDate'>
                           <mapNode t='190' idref='1'/>
@@ -5899,7 +5902,7 @@
                         </child>
                       </child>
                     </child>
-                    <child t='200' id='1811' V200='8' structElemExists='true' usedCount='5' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' ediElemType='4' ediElemRef='2000F' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='Loop-HL' description='2000F-Service Detail'>
+                    <child t='200' id='1811' V200='8' structElemExists='true' usedCount='9' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' ediElemType='4' ediElemRef='2000F' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='Loop-HL' description='2000F-Service Detail'>
                       <mapNode t='190' idref='1'/>
                       <loop>FixedLoop([count="1"],{Number of Times})</loop>
                       <child t='200' id='1812' V200='8' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='24' groupType='1' ediElemType='2' ediElemRef='7-HL' repHandlerStruct='' visible='true' sequenceId='0100' inheritsFrom='X12_5010_HIPAA:Structures/Segments/HL.xml' V281='13' V1='4' name='HL' description='Service Level'>
@@ -6004,9 +6007,9 @@
                           <mapNode t='190' idref='1'/>
                         </child>
                       </child>
-                      <child t='200' id='1846' V200='8' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='24' groupType='1' ediElemType='2' ediElemRef='7-HCR' repHandlerStruct='' visible='true' sequenceId='0500' inheritsFrom='X12_5010_HIPAA:Structures/Segments/HCR.xml' V281='13' V1='4' name='HCR' description='Health Care Services Review'>
+                      <child t='200' id='1846' V200='8' structElemExists='true' usedCount='5' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='24' groupType='1' ediElemType='2' ediElemRef='7-HCR' repHandlerStruct='' visible='true' sequenceId='0500' inheritsFrom='X12_5010_HIPAA:Structures/Segments/HCR.xml' V281='13' V1='4' name='HCR' description='Health Care Services Review'>
                         <mapNode t='190' idref='1'/>
-                        <child t='200' id='1847' V200='8' structElemExists='true' valueSetIndex='142' usedCount='3' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='2' inheritsFromCopyRule='24' dataType='2' ediElemType='5' ediElemRef='306' repHandlerStruct='' visible='true' sequenceId='01' inheritsFrom='X12_5010_HIPAA:Structures/Elements/306.xml' V281='13' modifiedFromParent_value='true' V1='4' name='HCR01' description='Action Code'>
+                        <child t='200' id='1847' V200='8' structElemExists='true' valueSetIndex='142' usedCount='5' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='2' inheritsFromCopyRule='24' dataType='2' ediElemType='5' ediElemRef='306' repHandlerStruct='' visible='true' sequenceId='01' inheritsFrom='X12_5010_HIPAA:Structures/Elements/306.xml' V281='13' modifiedFromParent_value='true' V1='4' name='HCR01' description='Action Code'>
                           <mapNode t='190' idref='1'/>
                           <value>IfThenElse(Equal(in$/root/row/Auth_Decision,Constant([value="APPROVED",dataType="2"],)),Constant([value="A1",dataType="2"],),IfThenElse(Equal(in$/root/row/Auth_Decision,Constant([value="PARTIALAPPROVED",dataType="2"],)),Constant([value="A2",dataType="2"],),IfThenElse(Equal(in$/root/row/Auth_Decision,Constant([value="NOT APPROVED",dataType="2"],)),Constant([value="A3",dataType="2"],),IfThenElse(Equal(in$/root/row/Auth_Decision,Constant([value="PENDING",dataType="2"],)),Constant([value="A4",dataType="2"],),Constant([value="",dataType="2"],)))))</value>
                         </child>
