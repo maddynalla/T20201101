@@ -1,6 +1,8 @@
 /,com.oaklandsw.base,version,1
 Databases,com.oaklandsw.base,order,5
 Maps,com.oaklandsw.base,order,1
+Maps/Jobs/db_2_edi/tHMap_1.xml,com.oaklandsw.base,references.0,/X12_5010_HIPAA Examples/Structures/EDI/278-A3-ENV-Example.xml
+Maps/Jobs/db_2_edi/tHMap_1.xml,com.oaklandsw.base,references.1,Structures/Jobs/db_2_edi/tHMap_1/row5.xml
 Maps/Jobs/mapper/abc.xml,com.oaklandsw.base,references.0,/X12_5010_HIPAA Examples/Structures/EDI/278-A3-ENV-Example.xml
 Maps/Jobs/mapper/tHMap_1.xml,com.oaklandsw.base,references.0,/X12_5010_HIPAA Examples/Structures/EDI/278-A3-ENV-Example.xml
 Maps/XML_EDI_278.xml,com.oaklandsw.base,references.0,Structures/EDI_278_2.xml
