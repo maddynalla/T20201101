@@ -1032,6 +1032,10 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "_fCWdMCtQEeu4n8QSp9B7Jg",
+    "version" : "Latest",
+    "type" : "mapper"
+  }, {
     "id" : "_a35EYCtPEeu4n8QSp9B7Jg",
     "version" : "Latest",
     "type" : "property"
