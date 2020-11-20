@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='190' id='1' V190='11' inStruct='Structures/Jobs/HDRDTL_EDI/tHMap_1/row3.xml' outStruct='X12_5010_HIPAA Examples:Structures/EDI/278-A3-ENV-Example.xml' inputRep='178' outputRep='171' nextMap='' inputStructUserName='row3' outputStructUserName='278-A3-ENV-Example' V1='4' name='tHMap_1' incarnation='19851'>
-  <inputMapElem t='200' id='2' V200='8' input='true' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='root'>
+<root t='190' id='1' V190='11' inStruct='Structures/Jobs/HDRDTL_EDI/tHMap_1/row3.xml' outStruct='X12_5010_HIPAA Examples:Structures/EDI/278-A3-ENV-Example.xml' inputRep='178' outputRep='171' nextMap='' inputStructUserName='row3' outputStructUserName='278-A3-ENV-Example' V1='4' name='tHMap_1' incarnation='19867'>
+  <inputMapElem t='200' id='2' V200='8' input='true' structElemExists='true' usedCount='5' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='root'>
     <mapNode t='190' idref='1'/>
   </inputMapElem>
-  <outputMapElem t='200' id='3' V200='8' structElemExists='true' usedCount='4' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='31' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='X12_5010_HIPAA:Structures/Transactions/278-A3-ENV.xml' V281='13' modifiedFromParent_loop='true' V1='4' name='Interchange'>
+  <outputMapElem t='200' id='3' V200='8' structElemExists='true' usedCount='6' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='31' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='X12_5010_HIPAA:Structures/Transactions/278-A3-ENV.xml' V281='13' modifiedFromParent_loop='true' V1='4' name='Interchange'>
     <mapNode t='190' idref='1'/>
     <loop>SimpleLoop([autoAdded="true"],in$/root,{Filter},{Sort Keys},{Contexts})</loop>
     <child t='200' id='4' V200='8' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-ISA'>
