@@ -347,6 +347,10 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "_8GedcCuBEeu4n8QSp9B7Jg",
+    "version" : "Latest",
+    "type" : "mapper"
+  }, {
     "id" : "_9DmCcCuAEeu4n8QSp9B7Jg",
     "version" : "Latest",
     "type" : "property"
