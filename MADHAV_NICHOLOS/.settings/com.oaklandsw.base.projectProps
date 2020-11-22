@@ -19,4 +19,5 @@ Sample Data/Jobs/HDRDTL_EDI/tHMap_1/row3/DTL+HDR_onerec.txt,com.oaklandsw.transf
 Sample Data/Jobs/db_2_edi/tHMap_1/row5/Auth_278_Export_Sample_Data_onerecord_flattened.txt,com.oaklandsw.transform,repNodeType,178
 Structures,com.oaklandsw.base,order,0
 Structures/EDI_278_2.xml,com.oaklandsw.base,references.0,/X12_5010_HIPAA/Structures/Transactions/278-A3-ENV.xml,/Interchange
+Structures/Jobs/HDRDTL_EDI/tHMap_1/row3.xml,com.oaklandsw.base,references.0,Sample Data/Jobs/HDRDTL_EDI/tHMap_1/row3/DTL+HDR_onerec.txt
 Structures/T_278_XML.xml,com.oaklandsw.base,references.0,Namespace Containers/replace_SA_278_35720_sweep.xml
