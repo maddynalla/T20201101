@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='190' id='1' V190='11' inStruct='Structures/Jobs/HDRDTL_EDI/tHMap_1/row3.xml' outStruct='X12_5010_HIPAA Examples:Structures/EDI/278-A3-ENV-Example.xml' inputRep='178' outputRep='171' nextMap='' inputStructUserName='row3' outputStructUserName='278-A3-ENV-Example' V1='4' name='tHMap_1' incarnation='26713'>
+<root t='190' id='1' V190='11' inStruct='Structures/Jobs/HDRDTL_EDI/tHMap_1/row3.xml' outStruct='X12_5010_HIPAA Examples:Structures/EDI/278-A3-ENV-Example.xml' inputRep='178' outputRep='171' nextMap='' inputStructUserName='row3' outputStructUserName='278-A3-ENV-Example' V1='4' name='tHMap_1' incarnation='26758'>
   <inputMapElem t='200' id='2' V200='8' input='true' structElemExists='true' usedCount='422' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='root'>
     <mapNode t='190' idref='1'/>
     <child t='200' id='2398' V200='8' input='true' structElemExists='true' usedCount='394' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='row'>
@@ -473,11 +473,11 @@
               </child>
               <child t='200' id='42' V200='8' structElemExists='true' usedCount='22' V283='2' occurMaxTimes='1' minSize='8' maxSize='8' dataType='31' ediElemType='5' ediElemRef='373' repHandlerStruct='' visible='true' sequenceId='04' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='BHT04' description='Transaction Set Creation Date'>
                 <mapNode t='190' idref='1'/>
-                <value>GetCurrentDateTime()</value>
+                <value>ExtractFromDateTime([what="1"],GetCurrentDateTime())</value>
               </child>
               <child t='200' id='43' V200='8' structElemExists='true' usedCount='22' V283='2' occurMaxTimes='1' minSize='4' maxSize='8' dataType='32' dataFormat='402' ediElemType='5' ediElemRef='337' repHandlerStruct='' visible='true' sequenceId='05' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='BHT05' description='Transaction Set Creation Time'>
                 <mapNode t='190' idref='1'/>
-                <value>GetCurrentDateTime()</value>
+                <value>ExtractFromDateTime([what="2"],GetCurrentDateTime())</value>
               </child>
               <child t='200' id='44' V200='8' structElemExists='true' valueSetIndex='5' usedCount='1' V283='2' occurMaxTimes='1' minSize='2' maxSize='2' inheritsFromCopyRule='24' dataType='2' ediElemType='5' ediElemRef='640' repHandlerStruct='' visible='true' sequenceId='06' inheritsFrom='X12_5010_HIPAA:Structures/Elements/640.xml' V281='13' V1='4' name='BHT06' description='Transaction Type Code'>
                 <mapNode t='190' idref='1'/>
