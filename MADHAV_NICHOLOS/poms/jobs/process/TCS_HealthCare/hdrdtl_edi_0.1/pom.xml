@@ -78,11 +78,6 @@
       <version>3.2.2</version>
     </dependency>
     <dependency>
-      <groupId>commons-io</groupId>
-      <artifactId>commons-io</artifactId>
-      <version>2.4</version>
-    </dependency>
-    <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-lang3</artifactId>
       <version>3.8.1</version>
@@ -156,16 +151,6 @@
       <groupId>org.talend.libraries</groupId>
       <artifactId>talendcsv</artifactId>
       <version>6.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>tdm-eclipse-7.3.1-20200214_0759</artifactId>
-      <version>7.3.1</version>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>tdm-lib-di-7.3.1-20200214_0759</artifactId>
-      <version>7.3.1</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
