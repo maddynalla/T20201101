@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='190' id='1' V190='11' inStruct='Structures/Jobs/HDRDTL_EDI/tHMap_1/row3.xml' outStruct='X12_5010_HIPAA Examples:Structures/EDI/278-A3-ENV-Example.xml' inputRep='178' outputRep='171' nextMap='' inputStructUserName='row3' outputStructUserName='278-A3-ENV-Example' V1='4' name='tHMap_1' incarnation='25973'>
-  <inputMapElem t='200' id='2' V200='8' input='true' structElemExists='true' usedCount='343' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='root'>
+<root t='190' id='1' V190='11' inStruct='Structures/Jobs/HDRDTL_EDI/tHMap_1/row3.xml' outStruct='X12_5010_HIPAA Examples:Structures/EDI/278-A3-ENV-Example.xml' inputRep='178' outputRep='171' nextMap='' inputStructUserName='row3' outputStructUserName='278-A3-ENV-Example' V1='4' name='tHMap_1' incarnation='26009'>
+  <inputMapElem t='200' id='2' V200='8' input='true' structElemExists='true' usedCount='344' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='root'>
     <mapNode t='190' idref='1'/>
-    <child t='200' id='2398' V200='8' input='true' structElemExists='true' usedCount='318' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='row'>
+    <child t='200' id='2398' V200='8' input='true' structElemExists='true' usedCount='319' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='row'>
       <mapNode t='190' idref='1'/>
       <child t='200' id='2399' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='record_type'>
         <mapNode t='190' idref='1'/>
       </child>
-      <child t='200' id='2508' V200='8' input='true' structElemExists='true' usedCount='2' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='New_Auth_id'>
+      <child t='200' id='2508' V200='8' input='true' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='New_Auth_id'>
         <mapNode t='190' idref='1'/>
       </child>
       <child t='200' id='2400' V200='8' input='true' structElemExists='true' usedCount='31' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Auth_id'>
@@ -750,7 +750,7 @@
                 </child>
                 <child t='200' id='131' V200='8' structElemExists='true' usedCount='477' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' ediElemType='4' ediElemRef='2000C' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='Loop-HL' description='2000C-Subscriber Detail'>
                   <mapNode t='190' idref='1'/>
-                  <loop>SimpleLoop(in$/root/row,{Filter},{Sort Keys},{Contexts})</loop>
+                  <loop>SimpleLoop(in$/root/row,Equal(GetVariable([variableName="authid"],),in$/root/row/New_Auth_id),{Sort Keys},{Contexts})</loop>
                   <child t='200' id='132' V200='8' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='24' groupType='1' ediElemType='2' ediElemRef='4-HL' repHandlerStruct='' visible='true' sequenceId='0100' inheritsFrom='X12_5010_HIPAA:Structures/Segments/HL.xml' V281='13' V1='4' name='HL' description='Subscriber Level'>
                     <mapNode t='190' idref='1'/>
                     <child t='200' id='133' V200='8' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='12' dataType='2' ediElemType='5' ediElemRef='628' repHandlerStruct='' visible='true' sequenceId='01' inheritsFrom='' V281='13' V1='4' name='HL01' description='Hierarchical ID Number'>
