@@ -438,14 +438,6 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_9DmCcCuAEeu4n8QSp9B7Jg",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
-    "id" : "_DQebcCuBEeu4n8QSp9B7Jg",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
     "id" : "DQTechnical",
     "version" : "Latest",
     "type" : "routine"
